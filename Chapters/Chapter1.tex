@@ -81,6 +81,41 @@ Desventajas
 	\end{itemize}
 \end{itemize}
 
+
+\subsection{Tipos de radares}
+La tecnología de radar ha experimentado muchos cambios desde su invención. Actualmente existe diversa variedad de sistemas de radar que se pueden clasificar en varias categorías según la finalidad de uso, cantidad de antenas, dependencia del blanco (radares primarios y secundarios mencionados anteriormente), forma de onda, ámbito de aplicación, etc. A continuación se destacan algunos de los sistemas de radar más comunes:
+
+\begin{itemize}
+\item Radar biestático:
+Consta de un transmisor y un receptor que están separados por una distancia que es igual a la distancia del objetivo esperado. Un radar en el que el transmisor y el receptor están ubicados en el mismo lugar se conoce como radar monoestático. La mayoría de los misiles tierra-aire y aire-aire de largo alcance emplean el uso de radar biestático.
+
+\item Radar de onda continua:
+En este tipo de sistema, la energía de una onda continua de radio, de frecuencia estable conocida, se transmite y luego se recibe de cualquiera de los objetos que reflejan las ondas. Un radar de onda continua utiliza tecnología Doppler, lo que significa que el radar será inmune a cualquier forma de interferencia de objetos grandes que estén estacionarios o se muevan lentamente.
+
+\item Radar doppler:
+Es una forma especial de radar que emplea el efecto Doppler para producir datos de velocidad sobre un objeto a una distancia determinada. Esto se logra enviando señales electromagnéticas hacia un objetivo y luego analizando cómo el movimiento del objeto ha afectado la frecuencia de la señal devuelta. Esta variación tiene la capacidad de proporcionar mediciones extremadamente precisas del componente radial de la velocidad de un objetivo en relación con el radar. Los radares Doppler tienen aplicaciones en diferentes industrias, incluida la aviación, la meteorología, la salud y muchas otras.
+
+\item Radar monopulso:
+Compara la señal recibida de un solo pulso de radar contra sí mismo con el objetivo de comparar la señal como se ve en múltiples polarizaciones o direcciones. La forma más común de radar monopulso es la adaptación de un radar de exploración cónico que compara el retorno de dos direcciones para medir directamente la ubicación del objetivo.
+
+\item Radar pasivo:
+Está diseñado para detectar y rastrear objetos procesando reflejos de fuentes de iluminación no cooperativas en el entorno. Estas fuentes incluyen por ejemplo señales de comunicaciones y transmisiones comerciales.
+
+\item Radares de instrumentación:
+Son radares que están diseñados para probar cohetes, misiles, aviones y municiones en campos de prueba gubernamentales y privados. Proporcionan una variedad de información que incluye espacio, posición y tiempo, tanto en tiempo real como en el análisis de post-procesamiento.
+
+\item Radar meteorológico:
+Este radar utiliza ondas de radio junto con polarización horizontal o circular. La selección de frecuencia del radar meteorológico depende de un compromiso de rendimiento entre el reflejo de la precipitación y la atenuación como resultado del vapor de agua atmosférico. Algunos radares meteorológicos están diseñados para utilizar cambios Doppler para medir la velocidad del viento y la polarización dual para identificar los tipos de precipitación.
+
+\item Radares cartográficos:
+Se utilizan para escanear una gran región geográfica en busca de aplicaciones geográficas y de teledetección. Están limitados a objetos relativamente estáticos. Existen algunos sistemas de radar específicos que pueden detectar a los humanos detrás de las paredes gracias a las características reflectantes de los humanos que son más diversas que las que se encuentran en los materiales de construcción.
+
+\item Radares de navegación:
+Poseen longitudes de onda cortas son capaces de reflejarse desde la tierra y las piedras. En su mayoría, son comunes en barcos comerciales y otros aviones comerciales de larga distancia. Hay varios radares de navegación que incluyen radares marinos comúnmente montados en barcos para evitar colisiones y con fines de navegación.
+
+\end{itemize}
+
+
 \subsection{Medición de distancia}
 Tradicionalmente se ha considerado que estas ondas electromagnéticas se propagan en línea recta en el espacio y esto puede variar ligeramente según las condiciones atmosféricas y meteorológicas. Mediante el uso de antenas de radar especiales, esta energía se puede enfocar en la dirección deseada. De esta forma, se puede medir la dirección (en azimut y ángulo de ubicación ) de los objetos que reflejan.
 
@@ -113,15 +148,15 @@ Se denomina clutter a aquellos ecos recibidos por el radar que son, por definici
 
 \section{Procesamiento de la señal de radar}
 
-La señal de vídeo analógico proveniente del radar por lo general viene con cierta cantidad de ruido y clutter incorporado. Los ecos de clutter son más intensos en zonas cercanas al radar y están influenciados por las condiciones atmosféricas. Se debe realizar un procesamiento sobre ésta señal de video para poder extraer la información sobre los blancos que circulen por el espacio aéreo cubierto por dicho radar. Se emplea para ello un extractor digital de datos de radar (EDDR).
+La señal de vídeo analógico proveniente del radar por lo general viene con cierta cantidad de ruido y clutter incorporado. Los ecos de clutter son más intensos en zonas cercanas al radar y están influenciados por las condiciones atmosféricas. Se debe realizar un procesamiento sobre ésta señal de video para poder extraer la información sobre los blancos que circulen por el espacio aéreo cubierto por dicho radar. Se emplea para ello un procesador monoradar.
 
-\subsection{EDDR}
-
-
-Los Extractores Digitales de Datos Radar tienen por misión la obtención de un dato, denominado plot, por cada blanco detectado por el radar. Es por ello que se encuentran ubicados en la cadena de proceso después de los procesos de filtrado  y detección (CFAR, por ejemplo). Normalmente los plots se proporcionan a través de un canal serie o sobre red en formato digital, donde cada blanco tiene asociados una serie de parámetros como la distancia, acimut, elevación (para radares tridimensionales), potencia, nivel de confianza, velocidad, etc. El Extractor extrae estos parámetros a partir de las señales de vídeo proporcionadas por etapas previas. Utilizando estas señales, el Extractor tiene que aglutinar la información procedente de un mismo blanco, pues el radar, de cada blanco, recibe un número de hits (reflejo de la emisión de un ciclo radar (PRF)) durante varios PRT consecutivos. El número de hits varía dependiendo del ancho del lóbulo de radiación, de la velocidad de giro de la antena, de la frecuencia de repetición de pulsos (PRF, Pulse repeticion frequency) del radar, del nivel de señal, de las condiciones meteorológicas, etc. Pues bien, el Extractor aplicando los algoritmos y procesos necesarios (ventana deslizante, por ejemplo) determinará los parámetros de Acimut y Distancia del Blanco respecto a la Estación Radar.
+\subsection{Procesador monoradar}
 
 
-Por tanto, la misión del Extractor es, correlacionar toda la información procedente del blanco, agruparla y extraer la información útil (distancia, acimut, nivel de potencia, etc.), y proporcionar como salida la información correspondiente a un solo blanco, codificarlo en formato digital y enviarlo a consolas (locales o remotas) o a Centros de Fusión Remotos, donde se recibe este tipo de información de varios radares para presentar un solo blanco visto por varios radares de forma simultánea. De esta forma se pueden visualizar en centros de control Remotos coberturas muy amplias.
+El procesador monoradar tiene por misión la obtención de un dato, denominado plot, por cada blanco detectado por el radar. Es por ello que se encuentran ubicados en la cadena de proceso después de los procesos de filtrado  y detección. Normalmente los plots se proporcionan a través de un canal serie o sobre red en formato digital, donde cada blanco tiene asociados una serie de parámetros como la distancia, azimut, elevación (para radares tridimensionales), potencia, nivel de confianza, velocidad, etc. El procesador extrae estos parámetros a partir de las señales de vídeo proporcionadas por etapas previas. Utilizando estas señales, el procesador monoradar tiene que aglutinar la información procedente de un mismo blanco, debido a que el radar, de cada blanco, recibe un número de hits (reflejo de la emisión de un ciclo radar (PRF)) durante varios PRT consecutivos. El número de hits varía dependiendo del ancho del lóbulo de radiación, de la velocidad de giro de la antena, de la frecuencia de repetición de pulsos (PRF, Pulse repeticion frequency) del radar, del nivel de señal, de las condiciones meteorológicas, etc. Debido a esto el procesador monoradar, aplicando los algoritmos y procesos necesarios (ventana deslizante, por ejemplo), determinará los parámetros de azimut y distancia del blanco respecto a la estación Radar.
+
+
+Por tanto, la función del procesador monoradar es, correlacionar toda la información procedente del blanco, agruparla y extraer la información útil (distancia, azimut, nivel de potencia, etc.), y proporcionar como salida la información correspondiente a un solo blanco, codificarlo en formato digital y enviarlo a consolas (locales o remotas) o a Centros de Fusión Remotos, donde se recibe este tipo de información de varios radares para presentar un solo blanco visto por varios radares de forma simultánea. De esta forma se pueden visualizar en centros de control remotos coberturas muy amplias.
 
 
 

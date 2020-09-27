@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.7.26)  16 SEP 2020 21:15
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.7.26)  26 SEP 2020 22:14
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -1127,104 +1127,111 @@ LaTeX Info: Redefining \. on input line 78.
 LaTeX Info: Redefining \% on input line 78.
 
 [2]
-LaTeX Info: Redefining \. on input line 101.
-LaTeX Info: Redefining \% on input line 101.
+LaTeX Info: Redefining \. on input line 100.
+LaTeX Info: Redefining \% on input line 100.
  [3]
 LaTeX Info: Redefining \. on input line 125.
 LaTeX Info: Redefining \% on input line 125.
  [4]
-
-Package caption Warning: \label without proper reference on input line 154.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `estructura_cfar' on page 5 undefined on input line 14
-8.
-
-File: ./Figures/Estructura-del-Esquema-CA-CFAR.png Graphic file (type bmp)
-<./Figures/Estructura-del-Esquema-CA-CFAR.png>
-LaTeX Info: Redefining \. on input line 155.
-LaTeX Info: Redefining \% on input line 155.
-[5]
-Missing character: There is no é in font cmmi10!
+LaTeX Info: Redefining \. on input line 157.
+LaTeX Info: Redefining \% on input line 157.
+ [5]
 LaTeX Info: Redefining \. on input line 176.
 LaTeX Info: Redefining \% on input line 176.
  [6]
 
-Package caption Warning: \label without proper reference on input line 185.
+Package caption Warning: \label without proper reference on input line 189.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fpga_por_dentro' on page 7 undefined on input line 17
-7.
+LaTeX Warning: Reference `estructura_cfar' on page 7 undefined on input line 18
+3.
+
+File: ./Figures/Estructura-del-Esquema-CA-CFAR.png Graphic file (type bmp)
+<./Figures/Estructura-del-Esquema-CA-CFAR.png>
+Missing character: There is no é in font cmmi10!
+LaTeX Info: Redefining \. on input line 204.
+LaTeX Info: Redefining \% on input line 204.
+[7]
+
+Package caption Warning: \label without proper reference on input line 220.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fpga_por_dentro' on page 8 undefined on input line 21
+2.
 
 File: ./Figures/22-0.png Graphic file (type bmp)
 <./Figures/22-0.png>
-LaTeX Info: Redefining \. on input line 195.
-LaTeX Info: Redefining \% on input line 195.
-[7]
+LaTeX Info: Redefining \. on input line 235.
+LaTeX Info: Redefining \% on input line 235.
+[8]
 File: ./Figures/diag_bloques_ALM.png Graphic file (type bmp)
 <./Figures/diag_bloques_ALM.png>
-LaTeX Info: Redefining \. on input line 235.
-LaTeX Info: Redefining \% on input line 235.
- [8]
-Missing character: There is no ̃ in font pplr8t!
-Missing character: There is no ̃ in font pplr8t!
-Missing character: There is no ̃ in font pplr8t!
-LaTeX Info: Redefining \. on input line 253.
-LaTeX Info: Redefining \% on input line 253.
+LaTeX Info: Redefining \. on input line 267.
+LaTeX Info: Redefining \% on input line 267.
  [9]
-Missing character: There is no ́ in font pplr8t!
-Missing character: There is no ́ in font pplr8t!
-Missing character: There is no ́ in font pplr8t!
-Missing character: There is no ̃ in font pplr8t!
-Missing character: There is no ı in font pplr8t!
-Missing character: There is no ́ in font pplr8t!
-Missing character: There is no ́ in font pplr8t!
-Missing character: There is no ́ in font pplr8t!
-Missing character: There is no ́ in font pplr8t!
-Missing character: There is no ́ in font pplr8t!
-Missing character: There is no ́ in font pplr8t!
-Missing character: There is no ̃ in font pplr8t!
-Missing character: There is no ̃ in font pplr8t!
-Missing character: There is no ́ in font pplr8t!
-Missing character: There is no ́ in font pplr8t!
-Missing character: There is no ́ in font pplr8t!
-Missing character: There is no ́ in font pplr8t!
-Missing character: There is no ́ in font pplr8t!
-Missing character: There is no ́ in font pplr8t!
-Missing character: There is no ́ in font pplr8t!
-Missing character: There is no ı in font pplr8t!
-Missing character: There is no ́ in font pplr8t!
-LaTeX Info: Redefining \. on input line 290.
-LaTeX Info: Redefining \% on input line 290.
+LaTeX Info: Redefining \. on input line 280.
+LaTeX Info: Redefining \% on input line 280.
  [10]
-LaTeX Info: Redefining \. on input line 324.
-LaTeX Info: Redefining \% on input line 324.
+Missing character: There is no ̃ in font pplr8t!
+Missing character: There is no ̃ in font pplr8t!
+Missing character: There is no ̃ in font pplr8t!
+Missing character: There is no ́ in font pplr8t!
+Missing character: There is no ́ in font pplr8t!
+Missing character: There is no ́ in font pplr8t!
+Missing character: There is no ̃ in font pplr8t!
+Missing character: There is no ı in font pplr8t!
+Missing character: There is no ́ in font pplr8t!
+Missing character: There is no ́ in font pplr8t!
+Missing character: There is no ́ in font pplr8t!
+Missing character: There is no ́ in font pplr8t!
+Missing character: There is no ́ in font pplr8t!
+Missing character: There is no ́ in font pplr8t!
+Missing character: There is no ̃ in font pplr8t!
+Missing character: There is no ̃ in font pplr8t!
+Missing character: There is no ́ in font pplr8t!
+Missing character: There is no ́ in font pplr8t!
+Missing character: There is no ́ in font pplr8t!
+Missing character: There is no ́ in font pplr8t!
+Missing character: There is no ́ in font pplr8t!
+Missing character: There is no ́ in font pplr8t!
+Missing character: There is no ́ in font pplr8t!
+Missing character: There is no ı in font pplr8t!
+Missing character: There is no ́ in font pplr8t!
+LaTeX Info: Redefining \. on input line 317.
+LaTeX Info: Redefining \% on input line 317.
  [11]
+LaTeX Info: Redefining \. on input line 359.
+LaTeX Info: Redefining \% on input line 359.
+ [12]
 File: ./Figures/vhdl_ejemplo2.png Graphic file (type bmp)
 <./Figures/vhdl_ejemplo2.png>
+LaTeX Info: Redefining \. on input line 381.
+LaTeX Info: Redefining \% on input line 381.
+ [13]
 File: ./Figures/vhdl_ejemplo.png Graphic file (type bmp)
 <./Figures/vhdl_ejemplo.png>
-LaTeX Info: Redefining \. on input line 356.
-LaTeX Info: Redefining \% on input line 356.
- [12]
 File: ./Figures/verilog_ejemplo.png Graphic file (type bmp)
 <./Figures/verilog_ejemplo.png>
-LaTeX Info: Redefining \. on input line 377.
-LaTeX Info: Redefining \% on input line 377.
- [13]
+LaTeX Info: Redefining \. on input line 410.
+LaTeX Info: Redefining \% on input line 410.
+ [14]
 File: ./Figures/test_bench3.png Graphic file (type bmp)
 <./Figures/test_bench3.png>
-LaTeX Info: Redefining \. on input line 411.
-LaTeX Info: Redefining \% on input line 411.
- [14])
+LaTeX Info: Redefining \. on input line 440.
+LaTeX Info: Redefining \% on input line 440.
+ [15])
 LaTeX Info: Redefining \. on input line 235.
 LaTeX Info: Redefining \% on input line 235.
- [15]
+ [16]
+LaTeX Info: Redefining \. on input line 235.
+LaTeX Info: Redefining \% on input line 235.
+ [17]
 \openout2 = `Chapters/Chapter2.aux'.
 
- (Chapters/Chapter2.tex [16
+ (Chapters/Chapter2.tex
+[18
 
 
 
@@ -1233,34 +1240,86 @@ Capítulo 2.
 File: ./Figures/ADC-SoC.jpg Graphic file (type bmp)
 <./Figures/ADC-SoC.jpg>
 1: section
-[17]
+[19]
+LaTeX Info: Redefining \. on input line 71.
+LaTeX Info: Redefining \% on input line 71.
+ [20]
 File: ./Figures/ADC-SoC_blockdiagram.jpg Graphic file (type bmp)
 <./Figures/ADC-SoC_blockdiagram.jpg>
 Missing character: There is no “ in font pplr8t!
 Missing character: There is no ​ in font pplr8t!
 Missing character: There is no ​ in font pplr8t!
 Missing character: There is no ” in font pplr8t!
-LaTeX Info: Redefining \. on input line 82.
-LaTeX Info: Redefining \% on input line 82.
- [18]
-LaTeX Info: Redefining \. on input line 99.
-LaTeX Info: Redefining \% on input line 99.
- [19]
+LaTeX Info: Redefining \. on input line 97.
+LaTeX Info: Redefining \% on input line 97.
+ [21]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 117.
+
 File: ./Figures/netlist_viewers.png Graphic file (type bmp)
 <./Figures/netlist_viewers.png>
-LaTeX Info: Redefining \. on input line 127.
-LaTeX Info: Redefining \% on input line 127.
- [20])
+
+Overfull \hbox (44.89435pt too wide) in paragraph at lines 122--123
+ [][] 
+ []
+
+LaTeX Info: Redefining \. on input line 135.
+LaTeX Info: Redefining \% on input line 135.
+[22]
+LaTeX Info: Redefining \. on input line 153.
+LaTeX Info: Redefining \% on input line 153.
+ [23]
+LaTeX Info: Redefining \. on input line 185.
+LaTeX Info: Redefining \% on input line 185.
+ [24]
+LaTeX Info: Redefining \. on input line 222.
+LaTeX Info: Redefining \% on input line 222.
+ [25]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 239.
+
+LaTeX Info: Redefining \. on input line 242.
+LaTeX Info: Redefining \% on input line 242.
+[26]
+File: ./Figures/2_process_scheme.png Graphic file (type bmp)
+<./Figures/2_process_scheme.png>
+LaTeX Info: Redefining \. on input line 288.
+LaTeX Info: Redefining \% on input line 288.
+ [27]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 326.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 326.
+
+LaTeX Info: Redefining \. on input line 328.
+LaTeX Info: Redefining \% on input line 328.
+[28]
+LaTeX Info: Redefining \. on input line 386.
+LaTeX Info: Redefining \% on input line 386.
+ [29]
+LaTeX Info: Redefining \. on input line 437.
+LaTeX Info: Redefining \% on input line 437.
+ [30]
+LaTeX Info: Redefining \. on input line 489.
+LaTeX Info: Redefining \% on input line 489.
+ [31]
+LaTeX Info: Redefining \. on input line 541.
+LaTeX Info: Redefining \% on input line 541.
+ [32]
+LaTeX Info: Redefining \. on input line 575.
+LaTeX Info: Redefining \% on input line 575.
+ [33])
 LaTeX Info: Redefining \. on input line 236.
 LaTeX Info: Redefining \% on input line 236.
- [21]
+ [34]
 \openout2 = `Chapters/Chapter3.aux'.
 
- (Chapters/Chapter3.tex [22
-
-
-
-]
+ (Chapters/Chapter3.tex
 Capítulo 3.
 ("C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty"
 File: lstlang1.sty 2020/03/24 1.8d listings language file
@@ -1268,34 +1327,35 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ("C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty"
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 )
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 73
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 55
 .
 
 (C:\Users\Usuario\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 84.
-
-1: section
-[23])
-LaTeX Info: Redefining \. on input line 237.
-LaTeX Info: Redefining \% on input line 237.
- [24]
-\openout2 = `Chapters/Chapter4.aux'.
-
- (Chapters/Chapter4.tex
-Capítulo 4.
+nput line 66.
 )
 1: section
-[25
+[35
 
 
 
 ]
+\openout2 = `Chapters/Chapter4.aux'.
+
+ (Chapters/Chapter4.tex [36
+
+
+
+]
+Capítulo 4.
+)
+1: section
+[37]
 \openout2 = `Chapters/Chapter5.aux'.
 
- (Chapters/Chapter5.tex [26
+ (Chapters/Chapter5.tex [38
 
 
 
@@ -1303,7 +1363,7 @@ Capítulo 4.
 Capítulo 5.
 )
 1: section
-[27]
+[39]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
  (memoria.aux
@@ -1314,7 +1374,7 @@ LaTeX Info: Redefining \% on input line 32.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 264.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: BA71EA79E997E7D8999FDBDC6B02316C;5244.
+(rerunfilecheck)             Checksum: 415E9B3C134C49BC92BED38AFDC773B2;8113.
 
 
 LaTeX Warning: There were undefined references.
@@ -1329,12 +1389,12 @@ Package logreq Info: Writing requests to 'memoria.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29307 strings out of 414071
- 584067 string characters out of 2898875
- 1257990 words of memory out of 3000000
- 46589 multiletter control sequences out of 15000+200000
- 568961 words of font info for 79 fonts, out of 3000000 for 9000
+ 29333 strings out of 414071
+ 584519 string characters out of 2898875
+ 1264206 words of memory out of 3000000
+ 46610 multiletter control sequences out of 15000+200000
+ 571879 words of font info for 88 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 59i,21n,82p,1385b,6580s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,21n,87p,1383b,6580s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on memoria.pdf (41 pages).
+Output written on memoria.pdf (53 pages).

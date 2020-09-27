@@ -3,16 +3,17 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Rango, altura y distancia a nivel de tierra \citep {WolfgangW}.\relax }}{1}{figure.caption.10}%
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Patrón de radiación de la antena.\relax }}{2}{figure.caption.11}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Composición de una FPGA Cyclone V de Altera\relax }}{7}{figure.caption.24}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Diagrama en bloques de un ALM\relax }}{9}{figure.caption.28}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Ejemplo de subsistema\relax }}{12}{figure.caption.36}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Ejemplo de un componente descrito con VHDL.\relax }}{13}{figure.caption.38}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Ejemplo de un componente descrito con Verlog.\relax }}{13}{figure.caption.40}%
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Diagrama en bloques de un test bench\relax }}{14}{figure.caption.44}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Composición de una FPGA Cyclone V de Altera\relax }}{9}{figure.caption.25}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Diagrama en bloques de un ALM\relax }}{10}{figure.caption.29}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Ejemplo de subsistema\relax }}{13}{figure.caption.37}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Ejemplo de un componente descrito con VHDL.\relax }}{14}{figure.caption.39}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Ejemplo de un componente descrito con Verlog.\relax }}{14}{figure.caption.41}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Diagrama en bloques de un test bench\relax }}{15}{figure.caption.45}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Placa ADC-SoC de TerasIC\relax }}{18}{figure.caption.58}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagrama en bloques de la placa ADC-SoC de TerasIC\relax }}{19}{figure.caption.59}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Ubicación de los visores de netlist en el flujo de diseño de Quartus\relax }}{20}{figure.caption.62}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Placa ADC-SoC de TerasIC\relax }}{20}{figure.caption.58}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagrama en bloques de la placa ADC-SoC de TerasIC\relax }}{21}{figure.caption.59}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Ubicación de los visores de netlist en el flujo de diseño de Quartus\relax }}{23}{figure.caption.62}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Diseño sincrónico abstraído en dos partes, combinacional (izquierda) y secuencial (derecha)\relax }}{28}{figure.caption.71}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

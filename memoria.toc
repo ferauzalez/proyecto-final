@@ -4,46 +4,70 @@
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.7}%
 \contentsline {section}{\numberline {1.1}Conceptos generales de radares}{1}{section.8}%
 \contentsline {subsection}{\numberline {1.1.1}Radar}{1}{subsection.9}%
-\contentsline {subsection}{\numberline {1.1.2}Medición de distancia}{3}{subsection.12}%
-\contentsline {subsection}{\numberline {1.1.3}Interferencias}{3}{subsection.14}%
-\contentsline {section}{\numberline {1.2}Procesamiento de la señal de radar}{4}{section.15}%
-\contentsline {subsection}{\numberline {1.2.1}EDDR}{4}{subsection.16}%
-\contentsline {section}{\numberline {1.3}Técnicas CFAR}{5}{section.17}%
-\contentsline {subsection}{\numberline {1.3.1}CA-CFAR}{5}{subsection.18}%
-\contentsline {subsection}{\numberline {1.3.2}Técnicas CA-CFAR relacionadas}{6}{subsection.21}%
-\contentsline {subsection}{\numberline {1.3.3}Otras técnicas CFAR}{6}{subsection.22}%
-\contentsline {section}{\numberline {1.4}FPGA}{6}{section.23}%
-\contentsline {subsection}{\numberline {1.4.1}SoC-FPGA}{7}{subsection.25}%
-\contentsline {section}{\numberline {1.5}Bloques básicos de una FPGA}{8}{section.26}%
-\contentsline {subsection}{\numberline {1.5.1}ALM}{8}{subsection.27}%
-\contentsline {subsection}{\numberline {1.5.2}Bloques de memoria}{8}{subsection.29}%
-\contentsline {subsection}{\numberline {1.5.3}Relojes y PLLs}{9}{subsection.30}%
-\contentsline {subsection}{\numberline {1.5.4}Hard Processor System}{9}{subsection.31}%
-\contentsline {section}{\numberline {1.6}Niveles de abstracción en el diseño digital}{10}{section.32}%
-\contentsline {section}{\numberline {1.7}Lenguaje de descripción de hardware}{11}{section.33}%
-\contentsline {subsection}{\numberline {1.7.1}Aspectos básicos del lenguaje VHDL}{12}{subsection.34}%
-\contentsline {subsubsection}{Entidad de diseño}{12}{section*.35}%
-\contentsline {subsubsection}{Arquitectura de diseño}{12}{section*.37}%
-\contentsline {subsection}{\numberline {1.7.2}Verilog}{13}{subsection.39}%
-\contentsline {section}{\numberline {1.8}Flujo de diseño}{13}{section.41}%
-\contentsline {subsection}{\numberline {1.8.1}Diseño}{14}{subsection.42}%
-\contentsline {subsection}{\numberline {1.8.2}Simulación}{14}{subsection.43}%
-\contentsline {subsection}{\numberline {1.8.3}Síntesis}{15}{subsection.49}%
-\contentsline {subsection}{\numberline {1.8.4}Implementación}{15}{subsection.53}%
-\contentsline {subsection}{\numberline {1.8.5}Configuración}{15}{subsection.54}%
-\contentsline {chapter}{\numberline {2}Materiales y metodos}{17}{chapter.55}%
-\contentsline {section}{\numberline {2.1}Dispositivos y herramientas utilizadas}{17}{section.56}%
-\contentsline {subsection}{\numberline {2.1.1}Placa ADC-SoC de TerasIC}{17}{subsection.57}%
-\contentsline {subsection}{\numberline {2.1.2}Quartus Prime}{18}{subsection.60}%
-\contentsline {subsubsection}{Visores de netlist}{20}{section*.61}%
-\contentsline {subsection}{\numberline {2.1.3}ModelSim}{21}{subsection.63}%
-\contentsline {chapter}{\numberline {3}Diseño e Implementación}{23}{chapter.64}%
-\contentsline {section}{\numberline {3.1}Requerimientos y especificaciones del proyecto}{23}{section.65}%
-\contentsline {subsection}{\numberline {3.1.1}Requerimientos}{23}{subsection.66}%
-\contentsline {subsection}{\numberline {3.1.2}Especificaciones}{23}{subsection.67}%
-\contentsline {section}{\numberline {3.2}Análisis del software}{23}{section.68}%
-\contentsline {chapter}{\numberline {4}Ensayos y Resultados}{25}{chapter.98}%
-\contentsline {section}{\numberline {4.1}Pruebas funcionales del hardware}{25}{section.99}%
-\contentsline {chapter}{\numberline {5}Conclusiones}{27}{chapter.100}%
-\contentsline {section}{\numberline {5.1}Conclusiones generales }{27}{section.101}%
-\contentsline {section}{\numberline {5.2}Próximos pasos}{27}{section.102}%
+\contentsline {subsection}{\numberline {1.1.2}Tipos de radares}{3}{subsection.12}%
+\contentsline {subsection}{\numberline {1.1.3}Medición de distancia}{4}{subsection.13}%
+\contentsline {subsection}{\numberline {1.1.4}Interferencias}{5}{subsection.15}%
+\contentsline {section}{\numberline {1.2}Procesamiento de la señal de radar}{5}{section.16}%
+\contentsline {subsection}{\numberline {1.2.1}Procesador monoradar}{5}{subsection.17}%
+\contentsline {section}{\numberline {1.3}Técnicas CFAR}{6}{section.18}%
+\contentsline {subsection}{\numberline {1.3.1}CA-CFAR}{6}{subsection.19}%
+\contentsline {subsection}{\numberline {1.3.2}Técnicas CA-CFAR relacionadas}{7}{subsection.22}%
+\contentsline {subsection}{\numberline {1.3.3}Otras técnicas CFAR}{7}{subsection.23}%
+\contentsline {section}{\numberline {1.4}FPGA}{8}{section.24}%
+\contentsline {subsection}{\numberline {1.4.1}SoC-FPGA}{8}{subsection.26}%
+\contentsline {section}{\numberline {1.5}Bloques básicos de una FPGA}{9}{section.27}%
+\contentsline {subsection}{\numberline {1.5.1}ALM}{9}{subsection.28}%
+\contentsline {subsection}{\numberline {1.5.2}Bloques de memoria}{10}{subsection.30}%
+\contentsline {subsection}{\numberline {1.5.3}Relojes y PLLs}{10}{subsection.31}%
+\contentsline {subsection}{\numberline {1.5.4}Hard Processor System}{10}{subsection.32}%
+\contentsline {section}{\numberline {1.6}Niveles de abstracción en el diseño digital}{11}{section.33}%
+\contentsline {section}{\numberline {1.7}Lenguaje de descripción de hardware}{12}{section.34}%
+\contentsline {subsection}{\numberline {1.7.1}Aspectos básicos del lenguaje VHDL}{13}{subsection.35}%
+\contentsline {subsubsection}{Entidad de diseño}{13}{section*.36}%
+\contentsline {subsubsection}{Arquitectura de diseño}{14}{section*.38}%
+\contentsline {subsection}{\numberline {1.7.2}Verilog}{14}{subsection.40}%
+\contentsline {section}{\numberline {1.8}Flujo de diseño}{15}{section.42}%
+\contentsline {subsection}{\numberline {1.8.1}Diseño}{15}{subsection.43}%
+\contentsline {subsection}{\numberline {1.8.2}Simulación}{15}{subsection.44}%
+\contentsline {subsection}{\numberline {1.8.3}Síntesis}{16}{subsection.50}%
+\contentsline {subsection}{\numberline {1.8.4}Implementación}{16}{subsection.54}%
+\contentsline {subsection}{\numberline {1.8.5}Configuración}{16}{subsection.55}%
+\contentsline {chapter}{\numberline {2}Materiales y métodos}{19}{chapter.56}%
+\contentsline {section}{\numberline {2.1}Placa ADC-SoC de TerasIC}{19}{section.57}%
+\contentsline {section}{\numberline {2.2}Quartus Prime}{21}{section.60}%
+\contentsline {subsubsection}{Visores de netlist}{22}{section*.61}%
+\contentsline {subsection}{\numberline {2.2.1}ModelSim}{23}{subsection.63}%
+\contentsline {subsection}{\numberline {2.2.2}Buenas prácticas en la codificación VHDL}{24}{subsection.64}%
+\contentsline {subsubsection}{Guía de estilo de codificación VHDL}{24}{section*.65}%
+\contentsline {subsubsection}{Reglas de codificación}{25}{section*.66}%
+\contentsline {subsubsection}{Otras convenciones}{25}{section*.67}%
+\contentsline {section}{\numberline {2.3}Buenas prácticas en el diseño digital}{25}{section.68}%
+\contentsline {subsubsection}{Lógica combinacional}{27}{section*.69}%
+\contentsline {subsection}{\numberline {2.3.1}Metodología estructurada}{27}{subsection.70}%
+\contentsline {section}{\numberline {2.4}Diseño detallado}{28}{section.72}%
+\contentsline {subsection}{\numberline {2.4.1}Requerimientos y especificaciones del proyecto}{28}{subsection.73}%
+\contentsline {subsection}{\numberline {2.4.2}Partición Software $\&$ Hardware}{29}{subsection.74}%
+\contentsline {subsection}{\numberline {2.4.3}Acciones del CFAR}{29}{subsection.75}%
+\contentsline {subsubsection}{FFD}{30}{section*.76}%
+\contentsline {subsubsection}{Celdas de guarda}{30}{section*.77}%
+\contentsline {subsubsection}{Celdas de referencia}{30}{section*.78}%
+\contentsline {subsubsection}{Celda Test}{30}{section*.79}%
+\contentsline {subsubsection}{Comparador}{30}{section*.80}%
+\contentsline {subsubsection}{CFAR}{31}{section*.81}%
+\contentsline {subsubsection}{Contador CFAR}{31}{section*.82}%
+\contentsline {subsection}{\numberline {2.4.4}Acciones del configurador}{31}{subsection.83}%
+\contentsline {subsubsection}{Sector fijo}{32}{section*.84}%
+\contentsline {subsubsection}{Registro de entrada}{32}{section*.85}%
+\contentsline {subsubsection}{Registro de salida}{32}{section*.86}%
+\contentsline {subsubsection}{Sector}{32}{section*.87}%
+\contentsline {subsubsection}{Procesador de presencias}{32}{section*.88}%
+\contentsline {subsubsection}{Ajuste de multiplicador}{33}{section*.89}%
+\contentsline {subsubsection}{Sectorizador}{33}{section*.90}%
+\contentsline {subsubsection}{Configurador}{33}{section*.91}%
+\contentsline {chapter}{\numberline {3}Diseño e Implementación}{35}{chapter.92}%
+\contentsline {section}{\numberline {3.1}Análisis del software}{35}{section.93}%
+\contentsline {chapter}{\numberline {4}Ensayos y Resultados}{37}{chapter.123}%
+\contentsline {section}{\numberline {4.1}Pruebas funcionales del hardware}{37}{section.124}%
+\contentsline {chapter}{\numberline {5}Conclusiones}{39}{chapter.125}%
+\contentsline {section}{\numberline {5.1}Conclusiones generales }{39}{section.126}%
+\contentsline {section}{\numberline {5.2}Próximos pasos}{39}{section.127}%
