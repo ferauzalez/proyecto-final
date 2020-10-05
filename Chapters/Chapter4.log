@@ -1,0 +1,2018 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.7.26)  4 OCT 2020 18:52
+entering extended mode
+**./Chapter4.tex
+(Chapter4.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-18>
+! Undefined control sequence.
+l.3 \chapter
+            {Resultados} % Main chapter title
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \chapter{R
+              esultados} % Main chapter title
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no R in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 3--4
+[] 
+ []
+
+! Undefined control sequence.
+l.11 \section
+             {Resultados}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \section{R
+               esultados}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no R in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 11--13
+[]
+ []
+
+! Undefined control sequence.
+l.14 \subsection
+                {Resultados de ensayos con marcos de prueba}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \subsection{R
+                  esultados de ensayos con marcos de prueba}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no R in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ñ in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no . in font nullfont!
+! Undefined control sequence.
+l.16 \subsubsection
+                   {FFD. Ensayo 1}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no 1 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 14--17
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 S
+      e introdujo los siguientes estímulos:
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no í in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no : in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 18--19
+[]
+ []
+
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ñ in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ñ in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.21 ...eñal de video de entrada \texttt{d_ffd_tb}
+                                                   de 14\-bit cuyo valor cre...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 21.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 21.
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.21 ...eñal de video de entrada \texttt{d_ffd_tb}
+                                                   de 14\-bit cuyo valor cre...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \item
+           Señal de habilitación \texttt{en_ffd_tb} con valor permante en '1...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \item S
+            eñal de habilitación \texttt{en_ffd_tb} con valor permante en '1...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \item S
+            eñal de habilitación \texttt{en_ffd_tb} con valor permante en '1...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.22 ...m Señal de habilitación \texttt{en_ffd_tb}
+                                                   con valor permante en '1'...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\mbox  #1->\leavevmode \hbox {#1}
+                                 
+l.22 ...m Señal de habilitación \texttt{en_ffd_tb}
+                                                   con valor permante en '1'...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\nfss@text #1->{\mbox {#1}}
+                           
+l.22 ...m Señal de habilitación \texttt{en_ffd_tb}
+                                                   con valor permante en '1'...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \item
+           Señal de reset \texttt{rst_ffd_tb} con valor permanente en '0' ló...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.23 \item S
+            eñal de reset \texttt{rst_ffd_tb} con valor permanente en '0' ló...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.23 \item S
+            eñal de reset \texttt{rst_ffd_tb} con valor permanente en '0' ló...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no ó in font cmmi10!
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \item S
+            eñal de reset \texttt{rst_ffd_tb} con valor permanente en '0' ló...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \item S
+            eñal de reset \texttt{rst_ffd_tb} con valor permanente en '0' ló...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.23 \item Señal de reset \texttt{rst_ffd_tb}
+                                              con valor permanente en '0' ló...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\mbox  #1->\leavevmode \hbox {#1}
+                                 
+l.23 \item Señal de reset \texttt{rst_ffd_tb}
+                                              con valor permanente en '0' ló...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\nfss@text #1->{\mbox {#1}}
+                           
+l.23 \item Señal de reset \texttt{rst_ffd_tb}
+                                              con valor permanente en '0' ló...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Command \end{itemize} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \end{itemize}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \end{itemize}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \end{itemize}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.24 \end{itemize}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no ó in font cmmi10!
+! Missing } inserted.
+<inserted text> 
+                }
+l.24 \end{itemize}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.24 \end{itemize}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.24 \end{itemize}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.24 \end{itemize}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no ñ in font cmmi10!
+Missing character: There is no ó in font cmmi10!
+Missing character: There is no ñ in font cmmi10!
+! Missing } inserted.
+<inserted text> 
+                }
+l.24 \end{itemize}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (54.53487pt too wide) in paragraph at lines 21--25
+\TU/lmtt/m/n/10 d$[]\OML/cmm/m/it/10 fd[]bde\OT1/cmr/m/n/10 14\TU/lmtt/m/n/10 -
+
+ []
+
+
+Overfull \hbox (739.46631pt too wide) in paragraph at lines 21--25
+\OML/cmm/m/it/10 bitcuyovalorcrececada\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ns:Seal
+dehabilitacin[]$ 
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \begin{figure}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.28 \includegraphics
+                     [scale=0.5]{./Figures/cfar_ffd_1.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.28 \includegraphics[scale=0.5]{./Figures/cfar_
+                                                ffd_1.png}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.28 ...phics[scale=0.5]{./Figures/cfar_ffd_1.png}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \caption
+             {Ensayo 1 sobre el módulo ffd}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 \end{figure}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.31 \end{figure}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no ó in font cmmi10!
+! Missing } inserted.
+<inserted text> 
+                }
+l.31 \end{figure}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (154.8257pt too wide) in paragraph at lines 28--32
+[]$[]\OML/cmm/m/it/10 fd[]:png[][]$ 
+ []
+
+Missing character: There is no L in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+! Undefined control sequence.
+<write> ...eference `cfar_ffd_1' on page \thepage 
+                                                  \space undefined\on@line .^^J
+l.33 ... se ilustran en la figura \ref{cfar_ffd_1}
+                                                  . Se observó en la señal d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `cfar_ffd_1' on page  undefined on input line 33.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no ó in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ñ in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.33 ...vó en la señal de salida \texttt{q_ffd_tb}
+                                                   que:
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.33 ...vó en la señal de salida \texttt{q_ffd_tb}
+                                                   que:
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.34 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 33--34
+[]
+ []
+
+
+Overfull \hbox (10.86pt too wide) in paragraph at lines 33--34
+[]
+ []
+
+
+Overfull \hbox (50.18295pt too wide) in paragraph at lines 33--34
+\TU/lmtt/m/n/10 q$[]\OML/cmm/m/it/10 fd[]bque \OT1/cmr/m/n/10 :$ 
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 35--35
+[] 
+ []
+
+
+Overfull \hbox (10.5pt too wide) in paragraph at lines 36--37
+\TU/lmtt/m/n/10 En
+ []
+
+
+Overfull \hbox (15.75pt too wide) in paragraph at lines 36--37
+\TU/lmtt/m/n/10 los
+ []
+
+
+Overfull \hbox (42.0pt too wide) in paragraph at lines 36--37
+\TU/lmtt/m/n/10 primeros
+ []
+
+
+Overfull \hbox (5.25pt too wide) in paragraph at lines 36--37
+\TU/lmtt/m/n/10 5
+ []
+
+
+Overfull \hbox (10.5pt too wide) in paragraph at lines 36--37
+\TU/lmtt/m/n/10 ns
+ []
+
+
+Overfull \hbox (10.5pt too wide) in paragraph at lines 36--37
+\TU/lmtt/m/n/10 la
+ []
+
+
+Overfull \hbox (31.5pt too wide) in paragraph at lines 36--37
+\TU/lmtt/m/n/10 salida
+ []
+
+
+Overfull \hbox (21.0pt too wide) in paragraph at lines 36--37
+\TU/lmtt/m/n/10 está
+ []
+
+
+Overfull \hbox (57.75pt too wide) in paragraph at lines 36--37
+\TU/lmtt/m/n/10 indefinida.
+ []
+
+
+Overfull \hbox (10.5pt too wide) in paragraph at lines 36--37
+\TU/lmtt/m/n/10 Lo
+ []
+
+
+Overfull \hbox (21.0pt too wide) in paragraph at lines 36--37
+\TU/lmtt/m/n/10 cual
+ []
+
+
+Overfull \hbox (10.5pt too wide) in paragraph at lines 36--37
+\TU/lmtt/m/n/10 es
+ []
+
+
+Overfull \hbox (52.5pt too wide) in paragraph at lines 36--37
+\TU/lmtt/m/n/10 esperable. 
+ []
+
+
+Overfull \hbox (10.5pt too wide) in paragraph at lines 37--38
+\TU/lmtt/m/n/10 En
+ []
+
+
+Overfull \hbox (21.0pt too wide) in paragraph at lines 37--38
+\TU/lmtt/m/n/10 cada
+ []
+
+
+Overfull \hbox (31.5pt too wide) in paragraph at lines 37--38
+\TU/lmtt/m/n/10 flanco
+ []
+
+
+Overfull \hbox (52.5pt too wide) in paragraph at lines 37--38
+\TU/lmtt/m/n/10 ascendente
+ []
+
+
+Overfull \hbox (15.75pt too wide) in paragraph at lines 37--38
+\TU/lmtt/m/n/10 del
+ []
+
+
+Overfull \hbox (26.25pt too wide) in paragraph at lines 37--38
+\TU/lmtt/m/n/10 reloj
+ []
+
+
+Overfull \hbox (10.5pt too wide) in paragraph at lines 37--38
+\TU/lmtt/m/n/10 el
+ []
+
+
+Overfull \hbox (26.25pt too wide) in paragraph at lines 37--38
+\TU/lmtt/m/n/10 valor
+ []
+
+
+Overfull \hbox (10.5pt too wide) in paragraph at lines 37--38
+\TU/lmtt/m/n/10 de
+ []
+
+
+Overfull \hbox (10.5pt too wide) in paragraph at lines 37--38
+\TU/lmtt/m/n/10 la
+ []
+
+
+Overfull \hbox (26.25pt too wide) in paragraph at lines 37--38
+\TU/lmtt/m/n/10 señal
+ []
+
+
+Overfull \hbox (10.5pt too wide) in paragraph at lines 37--38
+\TU/lmtt/m/n/10 de
+ []
+
+
+Overfull \hbox (36.75pt too wide) in paragraph at lines 37--38
+\TU/lmtt/m/n/10 entrada
+ []
+
+
+Overfull \hbox (10.5pt too wide) in paragraph at lines 37--38
+\TU/lmtt/m/n/10 se
+ []
+
+
+Overfull \hbox (52.5pt too wide) in paragraph at lines 37--38
+\TU/lmtt/m/n/10 transfiere
+ []
+
+
+Overfull \hbox (10.5pt too wide) in paragraph at lines 37--38
+\TU/lmtt/m/n/10 al
+ []
+
+
+Overfull \hbox (31.5pt too wide) in paragraph at lines 37--38
+\TU/lmtt/m/n/10 puerto
+ []
+
+
+Overfull \hbox (10.5pt too wide) in paragraph at lines 37--38
+\TU/lmtt/m/n/10 de
+ []
+
+
+Overfull \hbox (36.75pt too wide) in paragraph at lines 37--38
+\TU/lmtt/m/n/10 salida. 
+ []
+
+
+Overfull \hbox (35.75pt too wide) in paragraph at lines 40--41
+[]\TU/lmtt/m/n/10 Los
+ []
+
+
+Overfull \hbox (78.75pt too wide) in paragraph at lines 40--41
+\TU/lmtt/m/n/10 comportamientos
+ []
+
+
+Overfull \hbox (15.75pt too wide) in paragraph at lines 40--41
+\TU/lmtt/m/n/10 son
+ []
+
+
+Overfull \hbox (52.5pt too wide) in paragraph at lines 40--41
+\TU/lmtt/m/n/10 esperados. 
+ []
+
+! Undefined control sequence.
+l.43 \subsubsection
+                   {FFD. Ensayo 2}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (41.0pt too wide) in paragraph at lines 43--44
+[]\TU/lmtt/m/n/10 FFD.
+ []
+
+
+Overfull \hbox (31.5pt too wide) in paragraph at lines 43--44
+\TU/lmtt/m/n/10 Ensayo
+ []
+
+
+Overfull \hbox (5.25pt too wide) in paragraph at lines 43--44
+\TU/lmtt/m/n/10 2 
+ []
+
+
+Overfull \hbox (30.5pt too wide) in paragraph at lines 45--46
+[]\TU/lmtt/m/n/10 Se
+ []
+
+
+Overfull \hbox (47.25pt too wide) in paragraph at lines 45--46
+\TU/lmtt/m/n/10 introdujo
+ []
+
+
+Overfull \hbox (15.75pt too wide) in paragraph at lines 45--46
+\TU/lmtt/m/n/10 los
+ []
+
+
+Overfull \hbox (52.5pt too wide) in paragraph at lines 45--46
+\TU/lmtt/m/n/10 siguientes
+ []
+
+
+Overfull \hbox (52.5pt too wide) in paragraph at lines 45--46
+\TU/lmtt/m/n/10 estímulos: 
+ []
+
+
+Overfull \hbox (26.25pt too wide) in paragraph at lines 47--48
+\TU/lmtt/m/n/10 Señal
+ []
+
+
+Overfull \hbox (10.5pt too wide) in paragraph at lines 47--48
+\TU/lmtt/m/n/10 de
+ []
+
+
+Overfull \hbox (26.25pt too wide) in paragraph at lines 47--48
+\TU/lmtt/m/n/10 reloj
+ []
+
+
+Overfull \hbox (10.5pt too wide) in paragraph at lines 47--48
+\TU/lmtt/m/n/10 de
+ []
+
+
+Overfull \hbox (5.25pt too wide) in paragraph at lines 47--48
+\TU/lmtt/m/n/10 1
+ []
+
+
+Overfull \hbox (10.5pt too wide) in paragraph at lines 47--48
+\TU/lmtt/m/n/10 ns
+ []
+
+
+Overfull \hbox (10.5pt too wide) in paragraph at lines 47--48
+\TU/lmtt/m/n/10 de
+ []
+
+
+Overfull \hbox (42.0pt too wide) in paragraph at lines 47--48
+\TU/lmtt/m/n/10 periodo. 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.48 ...eñal de video de entrada \texttt{d_ffd_tb}
+                                                   de 14-bit cuyo valor crec...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.48 ...eñal de video de entrada \texttt{d_ffd_tb}
+                                                   de 14-bit cuyo valor crec...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 \item
+           Señal de habilitación \texttt{en_ffd_tb} con valor '1' lógico dur...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 \item S
+            eñal de habilitación \texttt{en_ffd_tb} con valor '1' lógico dur...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 \item S
+            eñal de habilitación \texttt{en_ffd_tb} con valor '1' lógico dur...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.49 ...m Señal de habilitación \texttt{en_ffd_tb}
+                                                   con valor '1' lógico dura...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\mbox  #1->\leavevmode \hbox {#1}
+                                 
+l.49 ...m Señal de habilitación \texttt{en_ffd_tb}
+                                                   con valor '1' lógico dura...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\nfss@text #1->{\mbox {#1}}
+                           
+l.49 ...m Señal de habilitación \texttt{en_ffd_tb}
+                                                   con valor '1' lógico dura...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 \item
+           Señal de reset \texttt{rst_ffd_tb} con valor '0' lógico hasta 3.2...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.50 \item S
+            eñal de reset \texttt{rst_ffd_tb} con valor '0' lógico hasta 3.2...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.50 \item S
+            eñal de reset \texttt{rst_ffd_tb} con valor '0' lógico hasta 3.2...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no ó in font cmmi10!
+Missing character: There is no ó in font cmmi10!
+Missing character: There is no ó in font cmmi10!
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 \item S
+            eñal de reset \texttt{rst_ffd_tb} con valor '0' lógico hasta 3.2...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 \item S
+            eñal de reset \texttt{rst_ffd_tb} con valor '0' lógico hasta 3.2...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.50 \item Señal de reset \texttt{rst_ffd_tb}
+                                              con valor '0' lógico hasta 3.2...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\mbox  #1->\leavevmode \hbox {#1}
+                                 
+l.50 \item Señal de reset \texttt{rst_ffd_tb}
+                                              con valor '0' lógico hasta 3.2...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\nfss@text #1->{\mbox {#1}}
+                           
+l.50 \item Señal de reset \texttt{rst_ffd_tb}
+                                              con valor '0' lógico hasta 3.2...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Command \end{itemize} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 \end{itemize}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 \end{itemize}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 \end{itemize}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.51 \end{itemize}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no ó in font cmmi10!
+Missing character: There is no ó in font cmmi10!
+! Missing } inserted.
+<inserted text> 
+                }
+l.51 \end{itemize}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.51 \end{itemize}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.51 \end{itemize}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.51 \end{itemize}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no ñ in font cmmi10!
+Missing character: There is no ó in font cmmi10!
+Missing character: There is no ñ in font cmmi10!
+! Missing } inserted.
+<inserted text> 
+                }
+l.51 \end{itemize}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (26.25pt too wide) in paragraph at lines 48--52
+\TU/lmtt/m/n/10 Señal
+ []
+
+
+Overfull \hbox (10.5pt too wide) in paragraph at lines 48--52
+\TU/lmtt/m/n/10 de
+ []
+
+
+Overfull \hbox (26.25pt too wide) in paragraph at lines 48--52
+\TU/lmtt/m/n/10 video
+ []
+
+
+Overfull \hbox (10.5pt too wide) in paragraph at lines 48--52
+\TU/lmtt/m/n/10 de
+ []
+
+
+Overfull \hbox (36.75pt too wide) in paragraph at lines 48--52
+\TU/lmtt/m/n/10 entrada
+ []
+
+
+Overfull \hbox (57.06267pt too wide) in paragraph at lines 48--52
+\TU/lmtt/m/n/10 d$[]\OML/cmm/m/it/10 fd[]bde\OT1/cmr/m/n/10 14 \OMS/cmsy/m/n/10
+ ^^@
+ []
+
+
+Overfull \hbox (949.78912pt too wide) in paragraph at lines 48--52
+\OML/cmm/m/it/10 bitcuyovalorcrececada\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ns:Seal
+dehabilitacin[]$ 
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 \begin{figure}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.55 \includegraphics
+                     [scale=0.5]{./Figures/cfar_ffd_2.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.55 \includegraphics[scale=0.5]{./Figures/cfar_
+                                                ffd_2.png}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.55 ...phics[scale=0.5]{./Figures/cfar_ffd_2.png}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 \caption
+             {Ensayo 2 sobre el módulo ffd}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 \end{figure}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.58 \end{figure}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no ó in font cmmi10!
+! Missing } inserted.
+<inserted text> 
+                }
+l.58 \end{figure}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (286.0757pt too wide) in paragraph at lines 55--59
+[]\TU/lmtt/m/n/10 [scale=0.5]./Figures/cfar$[]\OML/cmm/m/it/10 fd[]:png[][]$ 
+ []
+
+! Undefined control sequence.
+<write> ...eference `cfar_ffd_2' on page \thepage 
+                                                  \space undefined\on@line .^^J
+l.60 ... se ilustran en la figura \ref{cfar_ffd_2}
+                                                  . Se observó en la señal d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `cfar_ffd_2' on page  undefined on input line 60.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.60 ...a señal de salida \textit{\verb|q_ffd_tb|}
+                                                   que:
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.60 ...a señal de salida \textit{\verb|q_ffd_tb|}
+                                                   que:
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\verb@egroup ...erb@balance@group \@empty \egroup 
+                                                  
+l.60 ...al de salida \textit{\verb|q_ffd_tb|} que:
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \verb ended by end of line.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...al de salida \textit{\verb|q_ffd_tb|} que:
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten $.
+\verb@egroup ...erb@balance@group \@empty \egroup 
+                                                  
+l.61 
+     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \verb ended by end of line.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 
+     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten $.
+\verb@egroup ...erb@balance@group \@empty \egroup 
+                                                  
+l.62 \begin{itemize}
+                    
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \verb ended by end of line.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 \begin{itemize}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten $.
+\verb@egroup ...erb@balance@group \@empty \egroup 
+                                                  
+l.63 ...ida está indefinida. Lo cual es esperable.
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \verb ended by end of line.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 ...ida está indefinida. Lo cual es esperable.
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten $.
+\verb@egroup ...erb@balance@group \@empty \egroup 
+                                                  
+l.64 ...entrada se transfiere al puerto de salida.
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \verb ended by end of line.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 ...entrada se transfiere al puerto de salida.
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten $.
+\verb@egroup ...erb@balance@group \@empty \egroup 
+                                                  
+l.65 ...ajo de la señal de reset (reset inactivo).
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \verb ended by end of line.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 ...ajo de la señal de reset (reset inactivo).
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten $.
+\verb@egroup ...erb@balance@group \@empty \egroup 
+                                                  
+l.66 ...ción y al nivel bajo de la señal de reset.
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \verb ended by end of line.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 ...ción y al nivel bajo de la señal de reset.
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten $.
+\verb@egroup ...erb@balance@group \@empty \egroup 
+                                                  
+l.67 ...et. Esto provoca que la salida se resetee.
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \verb ended by end of line.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 ...et. Esto provoca que la salida se resetee.
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten $.
+\verb@egroup ...erb@balance@group \@empty \egroup 
+                                                  
+l.68 \end{itemize}
+                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \verb ended by end of line.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 \end{itemize}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten $.
+\verb@egroup ...erb@balance@group \@empty \egroup 
+                                                  
+l.69 
+     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \verb ended by end of line.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 
+     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten $.
+\verb@egroup ...erb@balance@group \@empty \egroup 
+                                                  
+l.70 Los comportamientos son esperados.
+                                       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \verb ended by end of line.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 Los comportamientos son esperados.
+                                       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten $.
+\verb@egroup ...erb@balance@group \@empty \egroup 
+                                                  
+l.71 
+     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \verb ended by end of line.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 
+     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten $.
+\verb@egroup ...erb@balance@group \@empty \egroup 
+                                                  
+l.72 
+     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \verb ended by end of line.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 
+     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten $.
+\verb@egroup ...erb@balance@group \@empty \egroup 
+                                                  
+l.73 \subsubsection{Celdas de guarda. Ensayo 1}
+                                               
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \verb ended by end of line.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 \subsubsection{Celdas de guarda. Ensayo 1}
+                                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten $.
+\verb@egroup ...erb@balance@group \@empty \egroup 
+                                                  
+l.74 
+     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \verb ended by end of line.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 
+     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten $.
+\verb@egroup ...erb@balance@group \@empty \egroup 
+                                                  
+l.75 Se introdujo los siguientes estímulos:
+                                           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \verb ended by end of line.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 Se introdujo los siguientes estímulos:
+                                           
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten $.
+\verb@egroup ...erb@balance@group \@empty \egroup 
+                                                  
+l.76 \begin{itemize}
+                    
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \verb ended by end of line.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 \begin{itemize}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten $.
+\verb@egroup ...erb@balance@group \@empty \egroup 
+                                                  
+l.77 \item Señal de reloj de 1 ns de periodo.
+                                             
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \verb ended by end of line.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 \item Señal de reloj de 1 ns de periodo.
+                                             
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten $.
+|...obal \let \verb@balance@group \@empty \egroup 
+                                                  
+l.78 ...m Señal de video de entrada \textit{\verb|
+                                                  d_ffd_tb|} de 14-bit cuyo ...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+|...obal \let \verb@balance@group \@empty \egroup 
+                                                  
+l.78 ...e video de entrada \textit{\verb|d_ffd_tb|
+                                                  } de 14-bit cuyo valor cre...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\verb@egroup ...erb@balance@group \@empty \egroup 
+                                                  
+l.78 ...tb|} de 14-bit cuyo valor crece cada 1 ns.
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \verb ended by end of line.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 ...tb|} de 14-bit cuyo valor crece cada 1 ns.
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten $.
+|...obal \let \verb@balance@group \@empty \egroup 
+                                                  
+l.79 \item Señal de habilitación \textit{\verb|
+                                               en_ffd_tb|} con valor permant...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+|...obal \let \verb@balance@group \@empty \egroup 
+                                                  
+l.79 ...l de habilitación \textit{\verb|en_ffd_tb|
+                                                  } con valor permante en '1...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! TeX capacity exceeded, sorry [main memory size=3000000].
+'->\leavevmode \kern \z@ 
+                         \char `\'
+l.79 ...\verb|en_ffd_tb|} con valor permante en '1
+                                                  ' lógico (siempre habilita...
+If you really absolutely need more capacity,
+you can ask a wizard to enlarge me.
+
+ 
+Here is how much of TeX's memory you used:
+ 39 strings out of 414071
+ 693 string characters out of 2898875
+ 3000000 words of memory out of 3000000
+ 17775 multiletter control sequences out of 15000+200000
+ 532370 words of font info for 28 fonts, out of 3000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 20i,6n,15p,462b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
+No pages of output.

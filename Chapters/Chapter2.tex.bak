@@ -1,6 +1,40 @@
 \chapter{Materiales y métodos} % Main chapter title
 
 \label{Chapter2}
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{ %
+  backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}
+  basicstyle=\footnotesize,        % the size of the fonts that are used for the code
+  breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+  breaklines=true,                 % sets automatic line breaking
+  captionpos=b,                    % sets the caption-position to bottom
+  commentstyle=\color{mygreen},    % comment style
+  deletekeywords={...},            % if you want to delete keywords from the given language
+  %escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+  %extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+  %frame=single,	                   % adds a frame around the code
+  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+  keywordstyle=\color{blue},       % keyword style
+  language=[ANSI]C,					% the language of the code
+  %otherkeywords={*,...},           % if you want to add more keywords to the set
+  numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=5pt,                   % how far the line-numbers are from the code
+  numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
+  rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+  showstringspaces=false,          % underline spaces within strings only
+  showtabs=false,                  % show tabs within strings adding particular underscores
+  stepnumber=1,                    % the step between two line-numbers. If it's 1, each line will be numbered
+  stringstyle=\color{mymauve},     % string literal style
+  tabsize=2,	                   % sets default tabsize to 2 spaces
+  title=\lstname,                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+  morecomment=[s]{/*}{*/}%
+}
+
+
 
 %----------------------------------------------------------------------------------------
 %	SECTION 1
@@ -115,11 +149,12 @@ Posee una herramienta llamada \textit{Signal Tab Logic Analyzer} que permite rea
 \end{itemize}
 
 \subsubsection{Visores de netlist}
+\label{seccion: Visores de netlist}
 A medida que los diseños de FPGA crecen en tamaño y complejidad, la capacidad de analizar, depurar, optimizar y restringir el diseño es fundamental. \textit{Quartus} posee visores llamados \textit{RTL Viewer}, \textit{State Machine Viewer} y \textit{Technology Map Viewer} (visores de nivel de transferencia de registros, de máquina de estados y de mapa tecnológico, respectivamente). Cada uno permite ver representaciones esquemáticas de la estructura interna del diseño. Cada visor muestra una vista única del \textit{netlist} (lista de redes) que se producen en diferentes etapas de la compilación, como se ilustra en la figura \ref{fig:netlist_viewers}. Se describen a continuación:
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.7]{./Figures/netlist_viewers.png}
+\includegraphics[scale=0.6]{./Figures/netlist_viewers.png}
 \caption{Ubicación de los visores de netlist en el flujo de diseño de Quartus}
 \label{fig:netlist_viewers}
 \end{figure}
@@ -145,6 +180,31 @@ Permite ver un esquema de bajo nivel específico de la tecnología de la lista d
 La simulación es un paso crítico en el diseño para FPGA. Permite al diseñador estimular su diseño y ver cómo el código que escribió reacciona al estímulo. Una gran simulación contendrá todos los estados posibles del diseño para garantizar que todos los escenarios de entrada se manejen de manera adecuada. Este ejercicio permite descubrir si en alguna parte del diseño, por ejemplo en procesos combinacionales,  no se contempló todos casos posibles y en caso de descubrir un comportamiento no esperado se procede a corregirlo.
 
 Para este proyecto se utilizó ModelSim, un entorno de simulación creado por Mentor Graphics. ModelSim Está diseñado para trabajar con Verilog y VHDL. Además cuenta con un debugger, el cual se puede emplear, por ejemplo, para descubrir comportamientos más difíciles de dilucidar que no son determinados a simple vista.
+
+\subsection{Sentencias VHDL tipo \textit{report} y \textit{assert}}
+Las sentencias de \textit{report} y \textit{assert} son sentencias de VHDL que se utilizaron para verificar la correcta ejecución de los procesos. La sentencias tipo \textit{report} arroja un mensaje en la consola de acuerdo a nivel de severidad, cuando el programa pasa por dicha sentencia, se puede imprimir un mensaje en la consola y agregar el valor que tiene una señal o variable determinada. Las sentencias tipo \textit{assert} evalúan el valor de una variable o señal en función de una condición y reportan el resultado en la consola de acuerdo al nivel de severidad.
+
+La sintaxis básica de las declaraciones tipo \textit{report} en VHDL es:
+
+
+\begin{lstlisting}[caption= "Sintaxis tipo \textit{report}"]
+	report <message_string> [severity <severity_level>];
+\end{lstlisting}
+
+
+\textit{Message string} es la cadena del mensaje. \textit{Severity level} es el nivel de gravedad del reporte. Los valores posibles de niveles de gravedad son: nota, advertencia, error, falla.
+
+Las declaraciones tipo \textit{report} son declaraciones secuenciales. Esto significa que solo pueden estar en regiones secuenciales, como dentro de las declaraciones que forman parte de un \textit{process}. No pueden estar solos en una arquitectura.
+
+Por otro lado, las declaraciones tipo \textit{assert} pueden ser secuenciales o concurrentes. Es decir, se pueden escribir en un proceso o en una arquitectura. Existen varias formas de escribir una declaración de este tipo, donde la condición es de tipo booleano:
+
+
+\begin{lstlisting}[caption= "Sintaxis tipo \textit{assert}"]
+	assert <condition>;
+	assert <condition> severity <severity_level>;
+	assert <condition> report <message_string>;
+	assert <condition> report <message_string> severity <severity_level>;
+\end{lstlisting}
 
 \subsection{Buenas prácticas en la codificación VHDL}
 
@@ -293,36 +353,6 @@ La lista de sensibilidad del proceso secuencial se realizó de modo que sea sens
 
 \section{Diseño detallado}
 
-\subsection{Requerimientos y especificaciones del proyecto}
-
-Se detalla a continuación los requerimientos y especificaciones tanto para el CFAR como para el configurador:
-
-\begin{itemize}
-\item CFAR
-	\begin{itemize}
-	
-	\item Requerimientos
-		\begin{itemize}
-		\item Diseñar un sistema CFAR que utilice los algoritmos CA-CFAR, GOCA-CFAR y SOCA-CFAR.
-		\item Introducir automatismos al sistema CFAR para la variación del factor de escala que 			afecta al umbral de comparación.
-		\item Implementar el diseño utilizando un HDL.
-		\end{itemize}
-	
-	
-	\item Especificaciones
-		\begin{itemize}
-		\item Emplear FPGA de la marca Intel.
-		\item Emplear lenguaje de descripción de hardware VHDL.
-		\item Realizar simulación de los componentes diseñados con simuladores de Quartus y 				ModelSim.
-		\item Emplear sistema de control de versiones Git.
-		\item Emplear repositorio remoto en GitHub.
-		\end{itemize}
-
-	\end{itemize}
-\end{itemize}
-
-
-
 \subsection{Partición Software $\&$ Hardware}
 Uno de los primeros pasos para la realización de un diseño digital es la partición entre software y hardware. Es decir, decidir qué parte del diseñó se procesará con software y qué parte con hardware. A continuación se describe el detalle de la partición software/hardware para el CFAR y configurador:
 
@@ -331,7 +361,7 @@ Uno de los primeros pasos para la realización de un diseño digital es la parti
 	\begin{itemize}
 	\item Componente de Firmware FPGA:
 		\begin{itemize}
-		\item Sistema CFAR de 32 celdas de referencia y 5 celdas de guarda.
+		\item Sistema CFAR de 64 celdas de referencia y 5 celdas de guarda.
 		\item Posibilidad de alternar entre algoritmos CFAR.
 		\item Celdas de 14-bit de resolución.
 		\item Uso de coeficiente multiplicador de 16-bit.
@@ -348,7 +378,7 @@ Uno de los primeros pasos para la realización de un diseño digital es la parti
 	\begin{itemize}
 	\item Componente de Firmware FPGA:
 		\begin{itemize}
-		\item 64 sectores reducidos que abarquen cada uno una porción de la cobertura.
+		\item 32 sectores reducidos que abarquen cada uno una porción de la cobertura.
 		\item 1 sector fijo que abarque toda la cobertura. 
 		\item Posibilidad de alternar entre sector fijo y sectores reducidos.
 		\item Control del tipo de video a utilizar (normal o integrado).
@@ -390,6 +420,17 @@ Se implementó la siguiente jerarquía de entidades de diseño para el CFAR:
 
 \end{itemize}
 
+
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.45]{./Figures/cfar_diag_bloques.png}
+\caption{Relación entre componentes del CFAR}
+\label{diagrama_cfar}
+\end{figure}
+
+La relación entre entidades de diseño del CFAR y el flujo de información entre estos se ilustra en la figura \ref{diagrama_cfar}.
+
 Cada componente fue diseñado para realizar las acciones que se describen a continuación.
 
 \subsubsection{FFD}
@@ -413,7 +454,7 @@ Cada componente fue diseñado para realizar las acciones que se describen a cont
 
 \subsubsection{Celdas de referencia}
 \begin{itemize}
-\item Debe comportarse como un registro de desplazamiento de 32 celdas.
+\item Debe comportarse como un registro de desplazamiento de 64 celdas.
 \item Debe transferir el dato de video en cada flanco ascendente del reloj.
 \item Debe resetearse de forma asincrónica.
 \item Debe permitir habilitación o deshabilitación.
@@ -452,6 +493,7 @@ Mismo comportamiento que FFD.
 
 
 \subsubsection{Contador CFAR}
+\label{subsubseccion: Contador CFAR}
 \begin{itemize}
 \item Debe recibir los \textit{targets} (señal de salida del CFAR).
 \item Debe utilizar la misma señal de reloj que el CFAR.
@@ -483,6 +525,14 @@ Se implementó la siguiente jerarquía de entidades de diseño para el configura
 	\end{itemize}
 \end{itemize}
 
+\begin{figure}
+\centering
+\includegraphics[scale=0.4]{./Figures/configurador_diag_bloques.png}
+\caption{Relación entre componentes del Configurador}
+\label{diagrama_configurador}
+\end{figure}
+
+La relación entre entidades de diseño del configurador y el flujo de información entre estos se ilustra en la figura \ref{diagrama_configurador}. En esta figura multiplexor de entrada no es una entidad de diseño, sino forma parte de la arquitectura del configurador.
 
 Cada componente fue diseñado para realizar las acciones que se describen a continuación.
 

@@ -37,37 +37,46 @@
 \contentsline {section}{\numberline {2.2}Quartus Prime}{21}{section.60}%
 \contentsline {subsubsection}{Visores de netlist}{22}{section*.61}%
 \contentsline {subsection}{\numberline {2.2.1}ModelSim}{23}{subsection.63}%
-\contentsline {subsection}{\numberline {2.2.2}Buenas prácticas en la codificación VHDL}{24}{subsection.64}%
-\contentsline {subsubsection}{Guía de estilo de codificación VHDL}{24}{section*.65}%
-\contentsline {subsubsection}{Reglas de codificación}{25}{section*.66}%
-\contentsline {subsubsection}{Otras convenciones}{25}{section*.67}%
-\contentsline {section}{\numberline {2.3}Buenas prácticas en el diseño digital}{25}{section.68}%
-\contentsline {subsubsection}{Lógica combinacional}{27}{section*.69}%
-\contentsline {subsection}{\numberline {2.3.1}Metodología estructurada}{27}{subsection.70}%
-\contentsline {section}{\numberline {2.4}Diseño detallado}{28}{section.72}%
-\contentsline {subsection}{\numberline {2.4.1}Requerimientos y especificaciones del proyecto}{28}{subsection.73}%
-\contentsline {subsection}{\numberline {2.4.2}Partición Software $\&$ Hardware}{29}{subsection.74}%
-\contentsline {subsection}{\numberline {2.4.3}Acciones del CFAR}{29}{subsection.75}%
-\contentsline {subsubsection}{FFD}{30}{section*.76}%
-\contentsline {subsubsection}{Celdas de guarda}{30}{section*.77}%
-\contentsline {subsubsection}{Celdas de referencia}{30}{section*.78}%
-\contentsline {subsubsection}{Celda Test}{30}{section*.79}%
-\contentsline {subsubsection}{Comparador}{30}{section*.80}%
-\contentsline {subsubsection}{CFAR}{31}{section*.81}%
-\contentsline {subsubsection}{Contador CFAR}{31}{section*.82}%
-\contentsline {subsection}{\numberline {2.4.4}Acciones del configurador}{31}{subsection.83}%
-\contentsline {subsubsection}{Sector fijo}{32}{section*.84}%
-\contentsline {subsubsection}{Registro de entrada}{32}{section*.85}%
-\contentsline {subsubsection}{Registro de salida}{32}{section*.86}%
-\contentsline {subsubsection}{Sector}{32}{section*.87}%
-\contentsline {subsubsection}{Procesador de presencias}{32}{section*.88}%
-\contentsline {subsubsection}{Ajuste de multiplicador}{33}{section*.89}%
-\contentsline {subsubsection}{Sectorizador}{33}{section*.90}%
-\contentsline {subsubsection}{Configurador}{33}{section*.91}%
-\contentsline {chapter}{\numberline {3}Diseño e Implementación}{35}{chapter.92}%
-\contentsline {section}{\numberline {3.1}Análisis del software}{35}{section.93}%
-\contentsline {chapter}{\numberline {4}Ensayos y Resultados}{37}{chapter.123}%
-\contentsline {section}{\numberline {4.1}Pruebas funcionales del hardware}{37}{section.124}%
-\contentsline {chapter}{\numberline {5}Conclusiones}{39}{chapter.125}%
-\contentsline {section}{\numberline {5.1}Conclusiones generales }{39}{section.126}%
-\contentsline {section}{\numberline {5.2}Próximos pasos}{39}{section.127}%
+\contentsline {subsection}{\numberline {2.2.2}Sentencias VHDL tipo \textit {report} y \textit {assert}}{23}{subsection.64}%
+\contentsline {subsection}{\numberline {2.2.3}Buenas prácticas en la codificación VHDL}{24}{subsection.72}%
+\contentsline {subsubsection}{Guía de estilo de codificación VHDL}{24}{section*.73}%
+\contentsline {subsubsection}{Reglas de codificación}{25}{section*.74}%
+\contentsline {subsubsection}{Otras convenciones}{26}{section*.75}%
+\contentsline {section}{\numberline {2.3}Buenas prácticas en el diseño digital}{26}{section.76}%
+\contentsline {subsubsection}{Lógica combinacional}{27}{section*.77}%
+\contentsline {subsection}{\numberline {2.3.1}Metodología estructurada}{28}{subsection.78}%
+\contentsline {section}{\numberline {2.4}Diseño detallado}{29}{section.80}%
+\contentsline {subsection}{\numberline {2.4.1}Partición Software $\&$ Hardware}{29}{subsection.81}%
+\contentsline {subsection}{\numberline {2.4.2}Acciones del CFAR}{29}{subsection.82}%
+\contentsline {subsubsection}{FFD}{30}{section*.84}%
+\contentsline {subsubsection}{Celdas de guarda}{30}{section*.85}%
+\contentsline {subsubsection}{Celdas de referencia}{30}{section*.86}%
+\contentsline {subsubsection}{Celda Test}{31}{section*.87}%
+\contentsline {subsubsection}{Comparador}{31}{section*.88}%
+\contentsline {subsubsection}{CFAR}{31}{section*.89}%
+\contentsline {subsubsection}{Contador CFAR}{32}{section*.90}%
+\contentsline {subsection}{\numberline {2.4.3}Acciones del configurador}{32}{subsection.91}%
+\contentsline {subsubsection}{Sector fijo}{33}{section*.93}%
+\contentsline {subsubsection}{Registro de entrada}{33}{section*.94}%
+\contentsline {subsubsection}{Registro de salida}{33}{section*.95}%
+\contentsline {subsubsection}{Sector}{33}{section*.96}%
+\contentsline {subsubsection}{Procesador de presencias}{33}{section*.97}%
+\contentsline {subsubsection}{Ajuste de multiplicador}{34}{section*.98}%
+\contentsline {subsubsection}{Sectorizador}{34}{section*.99}%
+\contentsline {subsubsection}{Configurador}{34}{section*.100}%
+\contentsline {chapter}{\numberline {3}Ensayos}{37}{chapter.101}%
+\contentsline {section}{\numberline {3.1}Ensayos con marcos de prueba}{37}{section.102}%
+\contentsline {subsubsection}{Flujo de simulación básico}{37}{section*.119}%
+\contentsline {section}{\numberline {3.2}Ensayos con visores de netlist}{39}{section.121}%
+\contentsline {section}{\numberline {3.3}Ensayos con simulador y decodificador}{39}{section.122}%
+\contentsline {section}{\numberline {3.4}Ensayos con Procesador Monoradar preexistente}{40}{section.124}%
+\contentsline {chapter}{\numberline {4}Resultados}{41}{chapter.125}%
+\contentsline {section}{\numberline {4.1}Resultados}{41}{section.126}%
+\contentsline {subsection}{\numberline {4.1.1}Resultados de ensayos con marcos de prueba}{41}{subsection.127}%
+\contentsline {subsubsection}{FFD. Ensayo 1}{41}{section*.128}%
+\contentsline {subsubsection}{FFD. Ensayo 2}{41}{section*.130}%
+\contentsline {subsubsection}{Celdas de guarda. Ensayo 1}{43}{section*.131}%
+\contentsline {subsubsection}{Celdas de guarda. Ensayo 2}{43}{section*.133}%
+\contentsline {chapter}{\numberline {5}Conclusiones}{47}{chapter.134}%
+\contentsline {section}{\numberline {5.1}Conclusiones generales }{47}{section.135}%
+\contentsline {section}{\numberline {5.2}Próximos pasos}{47}{section.136}%

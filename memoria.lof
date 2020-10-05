@@ -13,7 +13,13 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Placa ADC-SoC de TerasIC\relax }}{20}{figure.caption.58}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Diagrama en bloques de la placa ADC-SoC de TerasIC\relax }}{21}{figure.caption.59}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Ubicación de los visores de netlist en el flujo de diseño de Quartus\relax }}{23}{figure.caption.62}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Diseño sincrónico abstraído en dos partes, combinacional (izquierda) y secuencial (derecha)\relax }}{28}{figure.caption.71}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Diseño sincrónico abstraído en dos partes, combinacional (izquierda) y secuencial (derecha)\relax }}{28}{figure.caption.79}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Relación entre componentes del CFAR\relax }}{30}{figure.caption.83}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Relación entre componentes del Configurador\relax }}{32}{figure.caption.92}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Flujo de simulación básico\relax }}{38}{figure.caption.120}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Distribución de plots de prueba\relax }}{40}{figure.caption.123}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Ensayo 1 (derecha) y 2 (izquierda) sobre el módulo "ffd"\relax }}{42}{figure.caption.129}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Ensayo 1 (izquierda) y 2 (derecha) sobre el módulo 'celdas de guarda'\relax }}{44}{figure.caption.132}%
 \addvspace {10\p@ }
