@@ -72,11 +72,16 @@
 \contentsline {section}{\numberline {3.4}Ensayos con Procesador Monoradar preexistente}{40}{section.124}%
 \contentsline {chapter}{\numberline {4}Resultados}{41}{chapter.125}%
 \contentsline {section}{\numberline {4.1}Resultados}{41}{section.126}%
-\contentsline {subsection}{\numberline {4.1.1}Resultados de ensayos con marcos de prueba}{41}{subsection.127}%
-\contentsline {subsubsection}{FFD. Ensayo 1}{41}{section*.128}%
-\contentsline {subsubsection}{FFD. Ensayo 2}{41}{section*.130}%
-\contentsline {subsubsection}{Celdas de guarda. Ensayo 1}{43}{section*.131}%
-\contentsline {subsubsection}{Celdas de guarda. Ensayo 2}{43}{section*.133}%
-\contentsline {chapter}{\numberline {5}Conclusiones}{47}{chapter.134}%
-\contentsline {section}{\numberline {5.1}Conclusiones generales }{47}{section.135}%
-\contentsline {section}{\numberline {5.2}Próximos pasos}{47}{section.136}%
+\contentsline {subsection}{\numberline {4.1.1}Resultados del CFAR a ensayos con marcos de prueba}{41}{subsection.127}%
+\contentsline {subsubsection}{CFAR. Ensayo 1}{41}{section*.128}%
+\contentsline {subsubsection}{CFAR. Ensayo 2}{47}{section*.139}%
+\contentsline {subsubsection}{CFAR. Ensayo 3}{47}{section*.141}%
+\contentsline {subsubsection}{CFAR. Ensayo 4}{47}{section*.144}%
+\contentsline {subsection}{\numberline {4.1.2}Resultados del Configurador a ensayos con marcos de prueba}{50}{subsection.147}%
+\contentsline {subsubsection}{Configurador. Ensayo 1}{50}{section*.148}%
+\contentsline {subsubsection}{Configurador. Ensayo 2}{54}{section*.150}%
+\contentsline {subsubsection}{Configurador. Ensayo 3}{54}{section*.152}%
+\contentsline {subsubsection}{Resultados a ensayos con visores de netlist}{58}{section*.154}%
+\contentsline {chapter}{\numberline {5}Conclusiones}{65}{chapter.161}%
+\contentsline {section}{\numberline {5.1}Conclusiones generales }{65}{section.162}%
+\contentsline {section}{\numberline {5.2}Próximos pasos}{65}{section.163}%
