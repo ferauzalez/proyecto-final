@@ -100,6 +100,7 @@ El visor \textit{Technology Map Viewer} se utilizó para ver los resultados al f
 
 
 \section{Ensayos con simulador y decodificador}
+\label{Ensayos_simulador_decodificador}
 Para verificar el funcionamiento del Configurador se utilizó un simulador. Dicho equipo se integró dentro de la FPGA con el objetivo de poder tener dos modos de configuración: uno en donde la señal a analizar proveniera del radar y otro en el que la señal proveniera del simulador. En el segundo modo de configuración, el equipo simuló todas las señales correspondientes a los radares primario y secundario, incluidos los ecos de estos sensores. Por defecto, en este modo se simulan 8 plots primarios y 8 plots secundarios por cada giro de antena, como se ilustra en la figura \ref{fig: plots simulador}. Este modo permite efectuar ensayos de mantenimiento y calibración sobre las distintas partes del Procesador Monoradar cuando no se dispone físicamente del sistema de radar.
 
 Para ensayar el funcionamiento del configurador se diseñó un decodificador para recibir los datos de salida del mismo. Se dividió la cobertura en dos partes (agrupando 16 sectores en cada parte) y cada una se configuró con valores diferentes de algorítmo, multiplicador y coeficiente de ventana deslizante para verificar visualmente la confirmación (o no) de estos valores mediante el encendido (o apagado) de unos leds integrados en la placa.
@@ -115,6 +116,7 @@ Para determinar el crecimiento de la cantidad de targets detectados por el CFAR 
 
 
 \section{Ensayos con Procesador Monoradar preexistente}
+\label{Ensayos_Procesador_Monoradar_preexistente}
 Se utilizó un Procesador Monoradar preexistente para contrastar los datos arrojados por el Procesador Monoradar del que tanto el CFAR como el configurador descritos en este trabajo fueron parte. Para el CFAR se contrastó las ubicaciones de los plots detectados por ambos sistemas y se observó además la distribución de clutter. En el caso del configurador, se configuró varios sectores con diferentes valores de multiplicador para observar variación de clutter debido a los diferentes umbrales generados en estos sectores de la cobertura. Además para el configurador se varió el nivel de multiplicador  para algunos sectores, desde el nivel mínimo al máximo con el objetivo de visualizar en pantalla los límites de estos sectores.
 
 

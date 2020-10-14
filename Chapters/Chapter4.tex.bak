@@ -299,7 +299,7 @@ Se simuló el \textit{test bench} del componente \textit{ajuste de multiplicador
 \label{fig:multiplier_setting_ensayo_1}
 \end{figure}
 
-El resultado se ilustra en la figura \ref{fig:multiplier_setting_ensayo_1}. Un valor de decisión \texttt{01} significa "no realizar modificaciones al multiplicador", en otras palabras: dejar ese valor constante. Un valor de decisión \texttt{10} significa \"incrementar el valor del multiplicador en un delta". Donde el \textit{delta} tuvo valor $1$ por defecto. Por último, un valor de decisión \texttt{00} significa "decrementar el valor del multiplicador en un delta". La señal del multiplicador de entrada es constante debido a que el mismo se almacena en un registro externo al módulo e interno a cada sector, se toma dicho valor como referencia.
+El resultado se ilustra en la figura \ref{fig:multiplier_setting_ensayo_1}. Un valor de decisión \texttt{01} significa "no realizar modificaciones al multiplicador", en otras palabras: dejar ese valor constante. Un valor de decisión \texttt{10} significa ''incrementar el valor del multiplicador en un delta''. Donde el \textit{delta} tuvo valor $1$ por defecto. Por último, un valor de decisión \texttt{00} significa ''decrementar el valor del multiplicador en un delta''. La señal del multiplicador de entrada es constante debido a que el mismo se almacena en un registro externo al módulo e interno a cada sector, se toma dicho valor como referencia.
 
 Se observó que para $t = 1.5 us$, luego de $2$ flancos ascendentes de reloj, la salida queda definida en el valor configurado desde la entrada. Este valor se mantiene constante entre $t = 1.5 us$ y $t = 3 us$, intervalo de tiempo en el que el submodo estuvo con valor $0$ correspondiente a una operación fija. A partir de $t = 3 us$ el submodo adquirió valor $1$ indicando una operación automática, esto significa que se habilita con una modificación automática del último valor del multiplicador almacenado en el registro interno al módulo en función del valor de decisión de entrada. Se observó que entre $t = 3 us$ y $t = 13 us$, intervalo de tiempo en donde la decisión tomó valor $10$, el valor del multiplicador aumentó en una unidad en cada flanco ascendente de reloj. Para el intervalo de tiempo entre $t = 13 us$ y $t = 19 us$, donde la decisión tomó valor $00$, el valor del multiplicador disminuyó en una unidad en cada flanco ascendente de reloj. Finalmente, a partir de $t = 19 us$, con el valor de decisión $01$, el valor del multiplicador permaneció constante.
 
@@ -392,7 +392,7 @@ En $t = 21 us$, cuando el sector actual cambia de valor de \texttt{00010} y \tex
 
 
 
-\subsubsection{Resultados a ensayos con visores de netlist}
+\subsection{Resultados a ensayos con visores de netlist}
 \label{Subsec: Resultados de Visores de netlist}
 
 \begin{figure}
@@ -414,7 +414,7 @@ En $t = 21 us$, cuando el sector actual cambia de valor de \texttt{00010} y \tex
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.5]{./Figures/RTL_cfar_rc_1.png}
+\includegraphics[scale=0.6, angle=270]{./Figures/RTL_cfar_rc_1.png}
 \caption{Diagrama RTL de la sección de salida de una celda de referencia}
 \label{fig:RTL_cfar_rc_1}
 \end{figure}
@@ -423,7 +423,7 @@ En $t = 21 us$, cuando el sector actual cambia de valor de \texttt{00010} y \tex
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.5]{./Figures/RTL_cfar_comparador_1.png}
+\includegraphics[scale=0.6, angle=270]{./Figures/RTL_cfar_comparador_1.png}
 \caption{Diagrama RTL de la sección de salida del comparador}
 \label{fig:RTL_cfar_comparador_1}
 \end{figure}
@@ -435,7 +435,7 @@ En $t = 21 us$, cuando el sector actual cambia de valor de \texttt{00010} y \tex
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.5]{./Figures/RTL_cfg_sector_1.png}
+\includegraphics[scale=0.65, angle=270 ]{./Figures/RTL_cfg_sector_1.png}
 \caption{Diagrama RTL de la sección de entrada de un sector}
 \label{fig:RTL_cfg_sector_1}
 \end{figure}
@@ -444,7 +444,7 @@ En $t = 21 us$, cuando el sector actual cambia de valor de \texttt{00010} y \tex
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.5]{./Figures/RTL_cfg_input_reg_1.png}
+\includegraphics[scale=0.75]{./Figures/RTL_cfg_input_reg_1.png}
 \caption{Diagrama RTL de una sección del registro de entrada interno a un sector}
 \label{fig:RTL_cfg_input_reg_1}
 \end{figure}
@@ -461,3 +461,42 @@ Desplegando uno de los módulos correspondientes a las celdas de referencia, se 
 Para el componente \textit{comparador} se observó la interpretación por parte de la herramienta de síntesis de un circuito combinacional y otro secuencial, acorde a la descripción realizada en la sección \ref{metodologia_estructurada} del capítulo \ref{Chapter2} sobre la \textit{metodología estructurada}. En la figura \ref{fig:RTL_cfar_comparador_1} se ilustra la sección de salida del comparador compuesta por un circuito secuencial.
 
 En cuanto al configurador, se verificó la interpretación de la descripción RTL del módulo. Se ilustran ejemplos de los esquemas RTL del sector y del registro de entrada interno al sector, en las figuras \ref{fig:RTL_cfg_sector_1} y \ref{fig:RTL_cfg_input_reg_1}. En la figura \ref{fig:RTL_cfg_sector_1} se ilustra la condición de igualdad que debe cumplirse entre la señal de combinación de sector y la señal de identificación de ese sector, luego con una compuerta \textit{AND} se impuso otra condición para que se habilite la carga de la configuración con una señal adicional (proveniente del puente HPS). En la figura \ref{fig:RTL_cfg_input_reg_1} se ilustra parte de los diferentes componentes que componen el módulo: por un lado \textit{flip flops} tipo D para la selección del video CFAR y el submodo, y por el otro registros para la presencia requerida, algoritmo y multiplicador.
+
+
+
+
+\subsection{Resultados a ensayos con simulador y decodificador}
+\label{Subsec: Resultados de simulador y decodificador}
+
+Debido a que el módulo configurador no necesitó de señal de radar real para operar, se utilizó un decodificador y un simulador para verificar su funcionamiento luego del proceso de implementación en la FPGA, como se mencionó en la sección \ref{Ensayos_simulador_decodificador} del capítulo \ref{Chapter3}. El decodificador recibió las señales de salida del configurador correspondientes a:
+
+\begin{itemize}
+\item Señal proveniente del puerto de salida del algoritmo
+\item Señal proveniente del puerto de salida del coeficiente de ventana deslizante
+\item Señal proveniente del puerto de salida del multiplicador
+\end{itemize}
+
+A su vez, en el interior del decodificador se almacenó una configuración para estos parámetros más una configuración adicional para otro valor de multiplicador. La configuración almacenada fue:
+
+\begin{itemize}
+\item Algoritmo: \texttt{01}
+\item Multiplicador 1: \texttt{1111111111111110} (65534 en sistema decimal)
+\item Multiplicador 2: \texttt{1000000000000000} (32768 en sistema decimal)
+\item Coeficiente de ventana deslizante: \texttt{0011} (3 en sistema decimal)
+\end{itemize}
+
+
+Luego, en caso de que alguna señal de entrada del decodificador coincidiera con el valor almacenado de ese parámetro, se debía emitir un nivel lógico alto de salida. Este \textit{bit} se utilizaba para comandar cuatro \textit{leds} indicadores incorporados a la placa ADC-SoC. De esta, manera por ejemplo, cuando la señal de salida de coeficiente de ventana sea \texttt{0011} se debía encender el led correspondiente a ese parámetro, de lo contrario debía estar apagado. Además se conectó la señal de paso por el norte a otro led adicional, para visualizar el momento en el que se completaba una vuelta de radar.
+
+Con las configuración almacenada se ejecutó el simulador de blancos implementado en la placa ADC-SoC. La parte del simulador de interés para este ensayo fue el barrido en rango y azimut, que permitió para que el configurador realice un barrido por todos los sectores implementados. Se configuró la cobertura con los dos valores almacenados en el decodificador. Se dividió la cobertura en dos, a la mitad del intervalo total de azimut. Una mitad de la cobertura (16 sectores) se configuró con con un valor de multiplicador \texttt{1111111111111110} y la otra con valor \texttt{1000000000000000}. Luego se configuró toda la cobertura con los valores de algoritmo y coeficiente de ventana deslizante almacenados en el decodificador.
+
+Con el simulador y el procesador monoradar en ejecución, y después de realizada la configuración, se observó el encendido y apagado de los leds. Cuando el simulador completó una vuelta de radar el led de paso por el norte produjo un centelleo (breve encedido); a partir de ese momento y durante la mitad del tiempo de cobertura se encendió el led de multiplicador 1 mientras el led de multiplicador 2 estuvo apagado. Luego desde la mitad del tiempo de cobertura hasta el final de la misma se encendió el led de multiplicador 2 mientras el led de multiplicador 1 estuvo apagado. Los leds correspondientes al algoritmo y al coeficiente de ventana deslizante estuvieron encendidos sólo durante la mitad del tiempo de cobertura debido a que sólo una mitad de la cobertura se configuró para cumplir con la condición del decodificador.
+
+\subsection{Resultados a ensayos con procesador monoradar preexistente}
+\label{Subsec: Resultados a procesador monoradar preexistente}
+
+Se realizaron pruebas con un radar FPS113 de la Fuerza Aérea Argentina. Se utilizó un procesador monoradar preexistente para verificar el funcionamiento del CFAR luego del proceso de implementación en la FPGA, como se mencionó en la sección \ref{Ensayos_Procesador_Monoradar_preexistente} del capítulo \ref{Chapter3}. No se empleó el simulador debido a que para verificar el funcionamiento del CFAR fue necesario contar con señal de radar real.
+
+Se utilizó un decodificador para visualizar con unos leds incorporados en la placa ADC-SoC la cuenta de targets del CFAR en una vuelta de antena. Esto se llevó a cabo con el módulo \textit{contador CFAR} el cual consistió en un acumulador que proporcionaba 4 salidas de 1-bit correspondiente a los 4 bits más significativos de la cuenta. Se verificó que para en cada vuelta de antena se obtiene una cuenta ascendente de targets que se reseteaba en la vuelta de antena siguiente.
+
+Se empleó el procesador monoradar preexistente para realizar una comparación con el nuevo procesador monoradar del cual los subsistemas diseñados en este trabajo fueron parte. Se verificó que los blancos detectados por ambos sistemas coincidían en valores de rango y azimut, lo que significó que para la misma señal de entrada se produjo resultados similares.

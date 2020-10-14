@@ -11,15 +11,13 @@
 %	SECTION 1
 %----------------------------------------------------------------------------------------
 
-\section{Conclusiones generales }
+Se diseñó e implementó un sistema CFAR para un Procesador Monoradar capaz de elaborar umbrales adaptativos de acuerdo los algoritmos CA-CFAR (\textit{Cell Averaging CFAR}), SOCA-CFAR \textit{Smallest Of Cell Average CFAR} y GOCA-CFAR \textit{Greatest Of Cell Average CFAR}.
 
-La idea de esta sección es resaltar cuáles son los principales aportes del trabajo realizado y cómo se podría continuar. Debe ser especialmente breve y concisa. Es buena idea usar un listado para enumerar los logros obtenidos.
+Se diseñó e implementó un sistema configurador capaz de sectorizar la cobertura en 32 sectores. De esta manera se logró mediante calibración poder optimizar, para cada sector, los valores de configuración utilizados por el filtro CFAR, así como otros valores usados en etapas posteriores de procesamiento.
 
-%----------------------------------------------------------------------------------------
-%	SECTION 2
-%----------------------------------------------------------------------------------------
-\section{Próximos pasos}
+El diseño de ambos sistemas fue realizado utilizando el lenguaje de descripción de hardware VHDL. La implementación de estos diseños se llevó a cabo en una placa ADC-SoC de la firma \textit{TerasIC}.
 
-Acá se indica cómo se podría continuar el trabajo más adelante.
+Se realizaron pruebas con un radar FPS113 de la Fuerza Aérea Argentina y el sistema cumple exitosamente con los requerimientos. Esta implementación introdujo mejoras al procesamiento de señales. El trabajo en un futuro podría continuar con otras funciones automáticas que calibren el sistema sin depender de un operador.
 
-incluir % de utilizacion de recursos, commits, lineas de codigo..
+ 
+Para el presente trabajo, la extensión final de la descripción de los módulos (sin contar diseños previos no utilizados ni \textit{testbenchs}) fue de 2200 líneas. Con las descripciones en VHDL se se realizaron alrededor de 280 contribuciones (\textit{commits}) al repositorio utilizado por el equipo formado para el diseño e implementación del Procesador Monoradar. En la implementación final del Procesador Monoradar se utilizaron alrededor de 7400 módulos lógicos adaptativos (ALM) de la FPGA.

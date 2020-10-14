@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.7.26)  10 OCT 2020 03:04
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.7.26)  13 OCT 2020 18:17
 entering extended mode
 **./memoria.tex
 (memoria.tex
@@ -1035,14 +1035,14 @@ File: ./Figures/logo_unne.png Graphic file (type bmp)
 
 
 
-] [2]
+] [2
+
+]
 --------------------
  Resumen
 --------------------
 1: section
-[3
-
-] [4
+[3] [4
 
 ]
 --------------------
@@ -1072,24 +1072,6 @@ LaTeX Info: Redefining \% on input line 2.
 [9
 
 ] [10
-
-] (memoria.lot
-LaTeX Info: Redefining \. on input line 2.
-LaTeX Info: Redefining \% on input line 2.
-)
-\tf@lot=\write7
-\openout7 = `memoria.lot'.
-
-
-1: section
-[11] [12
-
-]
---------------------
- Dedicatory
---------------------
-1: section
-[13] [14
 
 ]
 1: section
@@ -1222,11 +1204,11 @@ File: ./Figures/test_bench3.png Graphic file (type bmp)
 LaTeX Info: Redefining \. on input line 440.
 LaTeX Info: Redefining \% on input line 440.
  [15])
-LaTeX Info: Redefining \. on input line 235.
-LaTeX Info: Redefining \% on input line 235.
+LaTeX Info: Redefining \. on input line 240.
+LaTeX Info: Redefining \% on input line 240.
  [16]
-LaTeX Info: Redefining \. on input line 235.
-LaTeX Info: Redefining \% on input line 235.
+LaTeX Info: Redefining \. on input line 240.
+LaTeX Info: Redefining \% on input line 240.
  [17]
 \openout2 = `Chapters/Chapter2.aux'.
 
@@ -1326,8 +1308,8 @@ LaTeX Info: Redefining \% on input line 589.
 LaTeX Info: Redefining \. on input line 624.
 LaTeX Info: Redefining \% on input line 624.
  [34])
-LaTeX Info: Redefining \. on input line 236.
-LaTeX Info: Redefining \% on input line 236.
+LaTeX Info: Redefining \. on input line 241.
+LaTeX Info: Redefining \% on input line 241.
  [35]
 \openout2 = `Chapters/Chapter3.aux'.
 
@@ -1350,11 +1332,11 @@ LaTeX Info: Redefining \% on input line 92.
  [38]
 File: ./Figures/plots_simulador.png Graphic file (type bmp)
 <./Figures/plots_simulador.png>
-LaTeX Info: Redefining \. on input line 119.
-LaTeX Info: Redefining \% on input line 119.
+LaTeX Info: Redefining \. on input line 121.
+LaTeX Info: Redefining \% on input line 121.
  [39])
-LaTeX Info: Redefining \. on input line 237.
-LaTeX Info: Redefining \% on input line 237.
+LaTeX Info: Redefining \. on input line 242.
+LaTeX Info: Redefining \% on input line 242.
  [40]
 \openout2 = `Chapters/Chapter4.aux'.
 
@@ -1519,45 +1501,57 @@ LaTeX Info: Redefining \% on input line 463.
 [58]
 LaTeX Info: Redefining \. on input line 463.
 LaTeX Info: Redefining \% on input line 463.
- [59])
-LaTeX Info: Redefining \. on input line 238.
-LaTeX Info: Redefining \% on input line 238.
+ [59]
+LaTeX Info: Redefining \. on input line 484.
+LaTeX Info: Redefining \% on input line 484.
  [60]
-LaTeX Info: Redefining \. on input line 238.
-LaTeX Info: Redefining \% on input line 238.
+LaTeX Info: Redefining \. on input line 484.
+LaTeX Info: Redefining \% on input line 484.
  [61]
-LaTeX Info: Redefining \. on input line 238.
-LaTeX Info: Redefining \% on input line 238.
+LaTeX Info: Redefining \. on input line 484.
+LaTeX Info: Redefining \% on input line 484.
  [62]
-LaTeX Info: Redefining \. on input line 238.
-LaTeX Info: Redefining \% on input line 238.
+LaTeX Info: Redefining \. on input line 484.
+LaTeX Info: Redefining \% on input line 484.
  [63]
-LaTeX Info: Redefining \. on input line 238.
-LaTeX Info: Redefining \% on input line 238.
- [64]
+LaTeX Info: Redefining \. on input line 484.
+LaTeX Info: Redefining \% on input line 484.
+ [64])
+LaTeX Info: Redefining \. on input line 243.
+LaTeX Info: Redefining \% on input line 243.
+ [65]
+LaTeX Info: Redefining \. on input line 243.
+LaTeX Info: Redefining \% on input line 243.
+ [66]
 \openout2 = `Chapters/Chapter5.aux'.
 
  (Chapters/Chapter5.tex
 Capítulo 5.
 )
 1: section
-[65
+[67
 
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 269.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 269.
  (memoria.aux
 LaTeX Info: Redefining \. on input line 32.
 LaTeX Info: Redefining \% on input line 32.
  (Chapters/Chapter1.aux) (Chapters/Chapter2.aux)
 (Chapters/Chapter3.aux) (Chapters/Chapter4.aux) (Chapters/Chapter5.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 264.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
-Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: 6BD44CD4F8686DA7B40005C0012F8390;9260.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 269.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 269.
 
+
+Package rerunfilecheck Warning: File `memoria.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `memoria.out':
+(rerunfilecheck)             Before: 2A568B733DC5A7F14C638E18DD85A846;9295
+(rerunfilecheck)             After:  73C9ECB86E26C372C44254176206DFD3;9290.
 
 LaTeX Warning: There were undefined references.
 
@@ -1574,12 +1568,12 @@ Package logreq Info: Writing requests to 'memoria.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29510 strings out of 414071
- 590094 string characters out of 2898875
- 1245531 words of memory out of 3000000
- 46761 multiletter control sequences out of 15000+200000
- 576807 words of font info for 104 fonts, out of 3000000 for 9000
+ 29504 strings out of 414071
+ 590165 string characters out of 2898875
+ 1246004 words of memory out of 3000000
+ 46759 multiletter control sequences out of 15000+200000
+ 574970 words of font info for 102 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 61i,21n,87p,1383b,6580s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,21n,87p,1383b,6580s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on memoria.pdf (79 pages).
+Output written on memoria.pdf (77 pages).
