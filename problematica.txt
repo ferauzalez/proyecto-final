@@ -1,5 +1,0 @@
-la problematica seria:  lo que hicieron con leandro fue migrar la tecnologia, usaron bloques ip. Resulta que al usar bloques ip estás atado al fabricante, a actualizar los bloques cuando cambia la version y depende de la herramienta de sintesis de un fabricante, no teniendo la seguridad de saber si sera gratuita o su costo, tambien estás limitado en el uso de cierta marca de placa. tampoco te permite modificar el bloque ip (calculo que hay que pagar una licencia) ni mirar lo que hay dentro.
-
-poder diseñar en hdl te da mas libertad en el diseño, podes cambiar de herramienta y de placa.
-
-aparte cuando lo implementaron con leandro lo importante era que ande, sin preocuparse por si estaba bien.

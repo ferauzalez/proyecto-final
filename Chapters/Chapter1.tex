@@ -33,26 +33,30 @@
 
 \subsection{Radar}
 
-El radar (acrónimo del inglés Radio Detection and Ranging), de acuerdo a la definición dada por ENACOM (Ente Nacional de Comunicaciones), es un sistema que permite determinar la localización y/o la velocidad de un objeto a través del uso de radiaciones electromagnéticas. Estas ondas una vez emitidas en cierta dirección, cuando impactan en algún objeto, se reflejan en distintas direcciones. Una onda reflejada regresa al radar y contiene una pequeña parte de la energía emitida originalmente. De esta manera, conociendo la velocidad de propagación de la onda y midiendo el tiempo de retardo, se puede conocer datos del mismo, por ejemplo la posición relativa del objetivo y su velocidad.
+El radar (acrónimo del inglés Radio Detection and Ranging), de acuerdo a la definición dada por ENACOM (Ente Nacional de Comunicaciones), es un sistema que permite determinar la localización y/o la velocidad de un objeto a través del uso de radiaciones electromagnéticas \citep{Enacom}. Estas ondas una vez emitidas en cierta dirección, cuando impactan en algún objeto, se reflejan en distintas direcciones. Una onda reflejada regresa al radar y contiene una pequeña parte de la energía emitida originalmente. De esta manera, conociendo la velocidad de propagación de la onda y midiendo el tiempo de retardo, se puede conocer datos del mismo, por ejemplo la posición relativa del objetivo y su velocidad.
 
-En general se utiliza el sistema de coordenadas polares: proporciona el alcance y la orientación de los objetivos encontrados con respecto a la posición de la antena. Cabe mencionar que el rango es la distancia inclinada desde la antena y no la distancia horizontal, como se ilustra en la figura \ref{Rango_figura}. El rango inclinado (1) es la hipotenusa del triángulo representado por la altitud de la aeronave y la distancia entre la antena del radar y la trayectoria en tierra de la aeronave (punto (3) en la tierra directamente debajo de la aeronave). En ausencia de información de altitud, la ubicación de la aeronave se trazaría más lejos (2) de la antena que su trayectoria real en tierra.
+En general se utiliza el sistema de coordenadas polares: proporciona el alcance y la orientación de los objetivos encontrados con respecto a la posición de la antena. Cabe mencionar que el rango es la distancia inclinada \citep{radar_tutorial_slant_range} desde la antena y no la distancia horizontal, como se ilustra en la figura \ref{Rango_figura}.
+ 
 \begin{figure}
 \centering
-\includegraphics[scale=0.5]{./Figures/Slant_range.png}
-\caption{Rango, altura y distancia a nivel de tierra \citep{WolfgangW}.}
+\includegraphics[scale=0.65]{./Figures/Slant_range.png}
+\caption{Rango, altura y distancia a nivel de tierra. Imagen tomada de WolfgangW \citep{WolfgangW}. El rango inclinado (1) es la hipotenusa del triángulo representado por la altitud de la aeronave y la distancia entre la antena del radar y la trayectoria en tierra de la aeronave (punto (3) en la tierra directamente debajo de la aeronave). En ausencia de información de altitud, la ubicación de la aeronave se trazaría más lejos (2) de la antena que su trayectoria real en tierra.} 
 \label{Rango_figura}
 \end{figure}
 
+
 El patrón de radiación de la antena se ilustra en la figura \ref{patrón_de_radiación} un haz estrecho cuando se ve desde arriba y, con cierta aproximación, puede considerarse como un trapecio si se ve de lado.
+
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.5]{./Figures/PSR_vistas.png}
+\includegraphics[scale=0.2]{./Figures/PSR_vistas.png}
 \caption{Patrón de radiación de la antena.}
 \label{patrón_de_radiación}
 \end{figure}
 
-Los radares que identifican objetos mediante la detección de reflexiones que estos producen de señales de radiofrecuencia se denominan radares primarios. Estos utilizan una antena que gira continuamente montada en una torre para transmitir ondas electromagnéticas que se reflejan, o se dispersan, desde la superficie de la aeronave hasta cierta cantidad de millas náuticas desde el radar. El sistema de radar mide el tiempo necesario para que el radar repita el eco y la dirección de la señal. A partir de esto, el sistema puede medir la distancia de la aeronave a la antena del radar y el azimut, o dirección, de la aeronave en relación con la antena.
+
+Los radares que identifican objetos mediante la detección de reflexiones que estos producen de señales de radiofrecuencia se denominan radares primarios \citep{PSR}. Estos utilizan una antena que gira continuamente montada en una torre para transmitir ondas electromagnéticas que se reflejan, o se dispersan, desde la superficie de la aeronave hasta cierta cantidad de millas náuticas desde el radar. El sistema de radar mide el tiempo necesario para que el radar repita el eco y la dirección de la señal. A partir de esto, el sistema puede medir la distancia de la aeronave a la antena del radar y el azimut, o dirección, de la aeronave en relación con la antena.
 
 Existen otro tipo de radares de vigilancia, denominados secundarios, que utilizan una segunda antena de baliza de radar unida a la parte superior de la antena del radar principal para transmitir y recibir datos del área de la aeronave para la altitud barométrica, el código de identificación y las condiciones de emergencia. Se emiten pulsos codificados, para realizar interrogaciones mediante trenes de pulsos. Las aeronaves militares, comerciales y algunas de aviación general tienen transpondedores que responden automáticamente a una señal del radar secundario informando un código de identificación y altitud. Los centros de control de tráfico aéreo utilizan estos datos del sistema para verificar la ubicación de la aeronave dentro de un radio determinado del sitio del radar. El radar secundario también proporciona una identificación rápida de aeronaves en peligro.
 
@@ -83,7 +87,7 @@ Desventajas
 
 
 \subsection{Tipos de radares}
-La tecnología de radar ha experimentado muchos cambios desde su invención. Actualmente existe diversa variedad de sistemas de radar que se pueden clasificar en varias categorías según la finalidad de uso, cantidad de antenas, dependencia del blanco (radares primarios y secundarios mencionados anteriormente), forma de onda, ámbito de aplicación, etc. A continuación se destacan algunos de los sistemas de radar más comunes:
+La tecnología de radar ha experimentado muchos cambios desde su invención. Actualmente existe diversa variedad de sistemas de radar \citep{RadarHandbook} que se pueden clasificar en varias categorías según la finalidad de uso, cantidad de antenas, dependencia del blanco (radares primarios y secundarios mencionados anteriormente), forma de onda, ámbito de aplicación, etc. A continuación se destacan algunos de los sistemas de radar más comunes:
 
 \begin{itemize}
 \item Radar biestático:
@@ -180,24 +184,27 @@ P_{n} = \dfrac{1}{N} \sum_{m=1}^{N} x_m
 
 donde \(N\) es la cantidad de celdas utilizadas y \(x_{m}\) es el valor de la muestra en cada celda. Si \(x_{m}\) resulta ser la salida de un detector de ley cuadrática, entonces \(P_{m}\) será la potencia de ruido estimada.
 
-Para evitar introducir en la promediación la potencia proveniente de la celda bajo testeo, se establece alrededor de ella unas celdas de guarda, cuyo valor almacenado no se computa, sólo se transfiere a las celdas siguientes, como se ilustra en la figura \ref{estructura_cfar}.
+
 
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.5]{./Figures/Estructura-del-Esquema-CA-CFAR.png}
-\label{estructura_cfar}
+\includegraphics[scale=0.25]{./Figures/Estructura-del-Esquema-CA-CFAR.png}
+\caption{Diagrama en bloques correspondiente al CA-CFAR.}
+\label{fig:estructura_cfar}
 \end{figure}
 
 \subsection{Técnicas CA-CFAR relacionadas}
 
-Existen variaciones inmediatas del algoritmo CA-CFAR, en las cuales en lugar de considerar en la promediación de ruido los valores de ambas celdas de referencia, sólo se considera uno de ellos. Este es el caso de los algoritmos GOCA-CFAR (greatest of Cell-Averaging - CFAR) y SOCA-CFAR (smallest of Cell-Averaging - CFAR). Con estas técnicas se comparan los promedios parciales de las celdas de referencia y se considera el mayor o el menor respectivamente.
+Para evitar introducir en la promediación la potencia proveniente de la celda bajo testeo, se establece alrededor de ella unas celdas de guarda, cuyo valor almacenado no se computa, sólo se transfiere a las celdas siguientes, como se ilustra en la figura \ref{fig:estructura_cfar}.
+
+Existen variaciones inmediatas del algoritmo CA-CFAR \citep{CFAR_techniques}, en las cuales en lugar de considerar en la promediación de ruido los valores de ambas celdas de referencia, sólo se considera uno de ellos. Este es el caso de los algoritmos GOCA-CFAR (greatest of Cell-Averaging - CFAR) y SOCA-CFAR (smallest of Cell-Averaging - CFAR). Con estas técnicas se comparan los promedios parciales de las celdas de referencia y se considera el mayor o el menor respectivamente.
 
 \subsection{Otras técnicas CFAR}
 Existen otros algoritmos no considerados en este trabajo, que incorporan otras herramientas estadísticas, como ser OS-CFAR (por Ordered Statistic CFAR) y (TM-CFAR, por Trimmed Mean - CFAR):
 \begin{itemize}
 \item OS-CFAR
-En la técnica CFAR de estadística ordenada, OS-CFAR, se ordenan las muestras de las celdas de referencia en orden ascendente. El elemento \(n/2\) es la mediana de los datos. El \(k-ésimo\) elemento de la lista ordenada representa un determinado nivel de interferencia y el umbral es un múltiplo de este valor.
+En la técnica CFAR de estadística ordenada, OS-CFAR, se ordenan las muestras de las celdas de referencia en orden ascendente. El elemento \(n/2\) es la mediana de los datos. El \(k-esimo\) elemento de la lista ordenada representa un determinado nivel de interferencia y el umbral es un múltiplo de este valor.
 \item TM-CFAR
 La técnica CFAR de constante media recortada (TM-CFAR), es una extensión de OS-CFAR en el que las celdas ordenadas en la ventana de referencia se recortan desde el extremo superior e inferior. El umbral es formado sumando las celdas restantes. En algunos TM-CFAR solo las celdas del extremo superior (celdas con mayor potencia) se descartan, por lo que si hay varios objetivos presentes en la ventana de referencia, el recorte elimina el efecto de la interferencia
 objetivo.
@@ -207,35 +214,34 @@ objetivo.
 
 \section{FPGA}
 
-Las FPGA (por sus siglas en inglés, Field Programmable Gate Array) son una matriz de compuertas lógicas programables cuyos elementos se componen un conjunto de bloques lógicos configurables, conectados mediante conexiones programables. Se crearon en el año 1984 como evolución de los dispositivos lógicos programables complejos (CPLD) y comparten ciertas similitudes con los Circuitos Integrados de Aplicación Específica, ASIC (acrónimo en inglés), sin embargo la diferencia con respecto a este viene marcada por su característica de ser reprogramable. También se pueden realizar comparaciones con otros dispositivos lógicos similares como GPP, DSP, ASIC estructurado, etc. Las FPGA se emplean en campos como la Medicina, procesamiento de imágenes y video, Aeroespacio y defensa, comunicaciones cableadas e inalámbricas, audio, entre otros.
-
-A diferencia con un microcontrolador, las FPGA no tiene una función específica incorporada, sino que poseen recursos para reproducir un circuito dentro del chip. Esto es posible debido los elementos lógicos individuales denominados CLBs (Configuble Logic Module) o  ALMs (Adaptative Logic Module), como se ilustra en la figura \ref{fpga_por_dentro}. Las FPGA modernas incluyen en estos bloques elementos básicos como Flip Flops, Look-Up-Tables, Digital Signal Prossencing Blocks, relojes dedicados, PLLs, etc. Tambien tiene bloques de entrada y salida que se conectan con pines individuales de las ALMs, que pueden ejercer no sólo funciones de buffers sino también estados de alta impedancia.
-
-Cabe mencionar que son dispositivos volátiles es decir que no tienen memoria, por sí solos no pueden almacenar su configuración de conexión y por tanto cuando se desconecta la fuente de energía se pierde esa configuración. Generalmente se utiliza una memoria por fuera de la FPGA para almacenar esa configuración.
-
-
 \begin{figure}
 \centering
 \includegraphics[scale=0.5]{./Figures/22-0.png}
-\label{fpga_por_dentro}
-\caption{Composición de una FPGA Cyclone V de Altera}
+\caption{Composición de una FPGA Cyclone V de Altera. Imagen tomada del Manual del chip.}
+\label{fig:fpga_por_dentro}
 \end{figure}
+
+Las FPGA (por sus siglas en inglés, Field Programmable Gate Array) son una matriz de compuertas lógicas programables cuyos elementos se componen un conjunto de bloques lógicos configurables, conectados mediante conexiones programables \citep{FpgaArq}. Se crearon en el año 1984 como evolución de los dispositivos lógicos programables complejos (CPLD) y comparten ciertas similitudes con los Circuitos Integrados de Aplicación Específica, ASIC (acrónimo en inglés), sin embargo la diferencia con respecto a este viene marcada por su característica de ser reprogramable. También se pueden realizar comparaciones con otros dispositivos lógicos similares como GPP, DSP, ASIC estructurado, etc. Las FPGA se emplean en campos como la Medicina, procesamiento de imágenes y video, Aeroespacio y defensa, comunicaciones cableadas e inalámbricas, audio, entre otros \citep{fpga_xilinx}.
+
+A diferencia con un microcontrolador, las FPGA no tiene una función específica incorporada, sino que poseen recursos para reproducir un circuito dentro del chip. Esto es posible debido los elementos lógicos individuales denominados CLBs (Configuble Logic Module) o  ALMs (Adaptative Logic Module), como se ilustra en la figura \ref{fig:fpga_por_dentro}. Las FPGA modernas incluyen en estos bloques elementos básicos como Flip Flops, Look-Up-Tables, Digital Signal Prossencing Blocks, relojes dedicados, PLLs, etc. Tambien tiene bloques de entrada y salida que se conectan con pines individuales de las ALMs, que pueden ejercer no sólo funciones de buffers sino también estados de alta impedancia.
+
+Cabe mencionar que son dispositivos volátiles es decir que no tienen memoria, por sí solos no pueden almacenar su configuración de conexión y por tanto cuando se desconecta la fuente de energía se pierde esa configuración. Generalmente se utiliza una memoria por fuera de la FPGA para almacenar esa configuración.
+
 
 
 \subsection{SoC-FPGA}
 
 Los procesadores y las FPGA son dispositivos importantes en la mayoría de los sistemas embebidos. Los procesadores poseen la funcionalidad de gestión de alto nivel y las FPGA las estrictas operaciones en tiempo real, procesamiento de datos o funciones de interfaz.
 
-Los dispositivos SoC-FPGA empezaron a producirse para brindar una alternativa de mayor desempeño y menor consumo y coste a sistemas que utilizan por separado una FPGA y un microprocesador o DSP. En los dispositivos SoC-FPGA se integra la arquitectura del procesador y FPGA en un sólo dispositivo. Esto brinda mayor integración, menor consumo de potencia, menor tamaño de placa y un mayor ancho de banda de comunicación entre el procesador y la FPGA.
+Los dispositivos SoC-FPGA empezaron a producirse para brindar una alternativa de mayor desempeño y menor consumo y coste a sistemas que utilizan por separado una FPGA y un microprocesador o DSP. En los dispositivos SoC-FPGA se integra la arquitectura del procesador y FPGA en un sólo dispositivo. Esto brinda mayor integración, menor consumo de potencia, menor tamaño de placa y un mayor ancho de banda de comunicación entre el procesador y la FPGA \citep{soc_fpga}.
 
-Como las señales entre el procesador y la FPGA ahora residen en el mismo chip, la comunicación entre los dos consume
-sustancialmente menos potencia en comparación con el uso de chips separados. Además la integración de miles de conexiones internas entre el procesador y la FPGA proporciona un ancho de banda mucho mayor y una latencia más baja que usar ambos dispositivos por separado.
+Como las señales entre el procesador y la FPGA ahora residen en el mismo chip, la comunicación entre los dos consume sustancialmente menos potencia en comparación con el uso de chips separados. Además la integración de miles de conexiones internas entre el procesador y la FPGA proporciona un ancho de banda mucho mayor y una latencia más baja que usar ambos dispositivos por separado.
 
 El paso siguiente es incluir el chip dentro de una placa de circuito impreso (PCB, por el acrónimo inglés Printed Circuit Board). Para ellos hay empresas que ofrecen en el mercado PCB con diferentes tecnologías FPGA y variados periféricos. Un ejemplo es la placa tipo ADC-SoC, que incorpora una SoC-FPGA con un convertidor analógico a digital (ADC, por Analog to Digital Conveter) de alta velocidad.
 
 
 \section{Bloques básicos de una FPGA}
-En el presente trabajo se utilizó una FPGA de la firma Intel. A continuación se describe los componentes básicos que por generalmente incorpora una FPGA de esta empresa.
+En el presente trabajo se utilizó una FPGA de la firma Intel \citep{cycloneV_handbook}. A continuación se describe los componentes básicos que por generalmente incorpora una FPGA de esta empresa.
 
 \subsection{ALM}
 
@@ -252,7 +258,7 @@ Las señales globales, los pines de entrada y salida de propósito general (GPIO
 \begin{figure}
 \centering
 \includegraphics[scale=.75]{./Figures/diag_bloques_ALM.png}
-\caption{Diagrama en bloques de un ALM}
+\caption{Diagrama en bloques de un ALM. Imagen tomada del Manual del chip.}
 \label{ALM_diag_bloques}
 \end{figure}
 
@@ -284,7 +290,7 @@ Las partes HPS y FPGA del dispositivo SoC-FPGA son diferentes. El HPS arranca de
 
 \section{Niveles de abstracción en el diseño digital}
 
-En el ámbito del diseño digital se pueden distinguir diferentes niveles de abstracción que se distinguen por su impacto en el diseño y complejidad. Las decisiones a nivel conceptual son menos complejas pero tienen un impacto importante en el diseño final y a su vez la complejidad del diseño crece a medida que avanzamos en el ciclo del diseño. Podemos distinguir, por ejemplo, entre los siguientes niveles:
+En el ámbito del diseño digital se pueden distinguir diferentes niveles de abstracción \citep{niveles_abstraccion} que se distinguen por su impacto en el diseño y complejidad. Las decisiones a nivel conceptual son menos complejas pero tienen un impacto importante en el diseño final y a su vez la complejidad del diseño crece a medida que avanzamos en el ciclo del diseño. Podemos distinguir, por ejemplo, entre los siguientes niveles:
 
 \begin{itemize}
 \item
@@ -323,8 +329,7 @@ Es el nivel más bajo de abstracción, se describe el funcionamiento de las puer
 
 Los lenguajes de descripción de hardware (HDL) se utilizan a nivel RTL para describir la estructura y comportamiento de sistemas digitales en forma textual. No son lenguajes de programación ya que a diferencia de estos, los HLDs pueden manejar múltiples procesos paralelos (como flip-flops y sumadores) que se ejecutan automáticamente de forma independiente entre sí. Cualquier cambio en la entrada del proceso activa automáticamente una actualización en la pila de procesos. En el proceso de diseño es importante tener en cuenta que cada línea de código representa uno o más componentes de hardware.
  
-El uso de un lenguaje de descripción de hardware (HDL) para diseñar en dispositivos FPGA tiene las siguientes
-ventajas:
+El uso de un lenguaje de descripción de hardware (HDL) para diseñar en dispositivos FPGA tiene las siguientes ventajas:
 \begin{itemize}
 \item
 Enfoque de arriba hacia abajo (top-down) para proyectos grandes.
@@ -355,11 +360,11 @@ Se puede reorientar el código de nivel de transferencia de registro (RTL) a nue
 
 \end{itemize}
 
-Los lenguajes HDL soportados por la IEEE son Verilog-HDL y VHDL. VHDL es un lenguaje que inicialmente usaban los contratistas del Departamento de Defensa de EE.UU; ahora se usa comercialmente y en universidades de investigación. Verilog nació como un HDL exclusivo, promovido por una compañía llamada Cadence Data Systems, pero Cadence transfirió el control de Verilog a un consorcio de empresas y universidades llamado Open Verilog International (OVI). Actualmente OVI y Open VHDL Internacional se unieron para formar Accellera. Para este proyecto se empleó ambos lenguajes, los cuales se describirán a continuación.
+Los lenguajes HDL soportados por la IEEE son Verilog-HDL y VHDL \citep{ieee_std} \citep{ieee_pkg}. VHDL es un lenguaje que inicialmente usaban los contratistas del Departamento de Defensa de EE.UU; ahora se usa comercialmente y en universidades de investigación. Verilog nació como un HDL exclusivo, promovido por una compañía llamada Cadence Data Systems, pero Cadence transfirió el control de Verilog a un consorcio de empresas y universidades llamado Open Verilog International (OVI). Actualmente OVI y Open VHDL Internacional se unieron para formar Accellera. Para este proyecto se empleó ambos lenguajes, los cuales se describirán a continuación.
 
 
 \subsection{Aspectos básicos del lenguaje VHDL}
-Un sistema digital está descrito por sus entradas y sus salidas y la relación que existe entre ellas. VHDL tiene una estructura que separa la declaración de puertos de entrada y de salida por un lado y por el otro la descripción del comportamiento del componente.
+Un sistema digital está descrito por sus entradas y sus salidas y la relación que existe entre ellas \citep{intro_VHDL}. VHDL tiene una estructura que separa la declaración de puertos de entrada y de salida por un lado y por el otro la descripción del comportamiento del componente.
 En la entidad (entity), se declaran los puertos de entrada y salida a utilizar, y en la sección arquitectura (architecture) se describe el comportamiento de la entidad, como se ilustra en la figura \ref{componente vhdl}. Cada arquitectura tiene asociada una entidad. Si es necesario, se pueden declarar bibliotecas a utilizar, por ejemplo para cálculo aritmético o para operación entre señales lógicas.
 
 \subsubsection{Entidad de diseño}
@@ -369,8 +374,8 @@ Una entidad de diseño también puede describirse en términos de componentes in
 
 \begin{figure}
 \centering
-\includegraphics[scale=.85]{./Figures/vhdl_ejemplo2.png}
-\caption{Ejemplo de subsistema}
+\includegraphics[scale=.5]{./Figures/vhdl_ejemplo2.png}
+\caption{Circuitos A, B y C como instancias de un circuito principal.}
 \label{interconexión de componentes}
 \end{figure}
 
@@ -389,22 +394,19 @@ La arquitectura define el cuerpo de una entidad de diseño. Especifica las relac
 
 Dentro de la arquitectura se pueden crear las señales internas a esa entidad, que efectúan el proceso de las señales de entrada para proporcionar un cierto resultado en los puertos de salida. Para ello se utilizan procesos, asignaciones, instancias de componentes, registros y operaciones lógicas.
 
-\subsection{Verilog}
-Es un lenguaje de descripción de hardware que fue diseñado con una sintaxis similar a C. Puede operar a nivel RTL y de compuertas. El diseño se estructura mediante módulos,como se ilustra en la figura \ref{componente verilog}, que incluyen tanto declaración de puertos como el comportamiento.
-
 \begin{figure}
 \centering
-\includegraphics[scale=.5]{./Figures/verilog_ejemplo.png}
-\caption{Ejemplo de un componente descrito con Verlog.}
+\includegraphics[scale=.95]{./Figures/verilog_ejemplo.png}
+\caption{Ejemplo de un componente descrito con Verilog.}
 \label{componente verilog}
 \end{figure}
 
+\subsection{Verilog}
+Es un lenguaje de descripción de hardware que fue diseñado con una sintaxis similar a C. Puede operar a nivel RTL y de compuertas. El diseño se estructura mediante módulos,como se ilustra en la figura \ref{componente verilog}, que incluyen tanto declaración de puertos como el comportamiento.
+Hay similitudes y diferencias en comparación con VHDL. Sin embargo, al parecer no hay una clara ventaja de usar uno u otro en términos de implementación.
 
-Hay similitudes y diferencias en comparación con VHDL, sin embargo al parecer no hay una clara ventaja de usar uno u otro en términos de implementación.
 
-
-
-\section{Flujo de diseño}
+\section{Flujo de diseno}
 El diseño de un circuito digital involucra diferentes fases que se describen a continuación:
 
 \subsection{Diseño}
@@ -412,7 +414,7 @@ Es la primer etapa del proceso. Consiste en ejecutar una toma de decisiones sobr
 
 
 \subsection{Simulación}
-Se utiliza una computadora para representar la estructura y comportamiento del sistema lógico digital. Mediante la simulación lógica, se interpreta la descripción HDL para predecir el comportamiento del hardware. De esta manera se pueden detectar errores en el funcionamiento del circuito antes de que se fabrique físicamente. Estos errores son corregidos modificando las sentencias del lenguaje empleado y sometiendo el diseño a un proceso de simulación. Una de las formas más usadas para simular diseños es el banco de pruebas (Testbench), que proporciona una forma gráfica de producir y visualizar las formas de onda de las señales de entrada y salida.
+Se utiliza una computadora para representar la estructura y comportamiento del sistema lógico digital \citep{morris_mano}. Mediante la simulación lógica, se interpreta la descripción HDL para predecir el comportamiento del hardware. De esta manera se pueden detectar errores en el funcionamiento del circuito antes de que se fabrique físicamente. Estos errores son corregidos modificando las sentencias del lenguaje empleado y sometiendo el diseño a un proceso de simulación. Una de las formas más usadas para simular diseños es el banco de pruebas (Testbench), que proporciona una forma gráfica de producir y visualizar las formas de onda de las señales de entrada y salida.
 
 
 
@@ -455,7 +457,6 @@ Los recursos afectan a la forma en que las funciones descritas son interpretadas
 \item Las directivas de síntesis seleccionadas por el diseñador.
 Las directivas de síntesis son aquellos parámetros que se configuran para que la herramienta de síntesis los tenga en cuenta en el proceso de implementación. Por ejemplo, incluir restricciones de tiempo a ciertas señales permite que la implementación de los bloques que se conecten a dichas señales se realice de manera de ubicarlos en una sección del chip que permita que esta restricción se cumpla. En caso de que no se cumpla, la herramienta dará un error de síntesis para comunicar que el diseño debe ser modificado.
 \end{enumerate}
-
 
 
 \subsection{Implementación}

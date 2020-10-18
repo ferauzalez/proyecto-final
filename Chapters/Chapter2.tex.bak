@@ -64,7 +64,7 @@ Para la realización del presente trabajo se utilizó:
 En las secciones siguientes se menciona la utilización de las mismas.
 
 \section{Placa ADC-SoC de TerasIC}
-Se utilizó una placa tipo SoC-FPGA de la firma TeraSiC. Esta placa posee un circuito de conversión analógica a digital que utiliza conectores SMA como interfaz de entrada y proporciona dos canales de conversión, cada uno de 14-bits de resolución y una frecuencia de muestreo de hasta 150 MSPS (Megasamples per Second).
+Se utilizó una placa tipo SoC-FPGA de la firma TeraSiC \citep{manual_adc_soc}. Esta placa posee un circuito de conversión analógica a digital que utiliza conectores SMA como interfaz de entrada y proporciona dos canales de conversión, cada uno de 14-bits de resolución y una frecuencia de muestreo de hasta 150 MSPS (Megasamples per Second).
 
 \begin{figure}
 \centering
@@ -112,7 +112,7 @@ El siguiente hardware se proporciona en la placa:
 \begin{figure}
 \centering
 \includegraphics[scale=0.25]{./Figures/ADC-SoC_blockdiagram.jpg}
-\caption{Diagrama en bloques de la placa ADC-SoC de TerasIC}
+\caption{Diagrama en bloques de la placa ADC-SoC de TerasIC tomada del manual correspondiente.}
 \end{figure}
 
 
@@ -120,7 +120,7 @@ En el chip Cyclone V de Altera (propiedad de Intel) se integra una FPGA y un HPS
  
  
 \section{Quartus Prime}
-Como herramienta de compilación se utilizó \textit{Quartus Prime}, software producido por Altera para el análisis y la síntesis de diseños realizados en HDL. Permite compilar diseños, realizar análisis temporales, examinar diagramas RTL y configurar el dispositivo de destino con el programador.
+Como herramienta de compilación se utilizó \textit{Quartus Prime} \citep{quartus_book}, software producido por Altera para el análisis y la síntesis de diseños realizados en HDL. Permite compilar diseños, realizar análisis temporales, examinar diagramas RTL y configurar el dispositivo de destino con el programador.
 
 \textit{Quartus} proporciona herramientas para trabajar en diferentes fases del diseño en FPGA como la creación del diseño, el agregado de restricciones, la compilación, el análisis de tiempos y la configuración de la FPGA con un programador. Se describen las características de \textit{Quartus} a continuación:
 
@@ -155,7 +155,7 @@ A medida que los diseños de FPGA crecen en tamaño y complejidad, la capacidad 
 \begin{figure}
 \centering
 \includegraphics[scale=0.6]{./Figures/netlist_viewers.png}
-\caption{Ubicación de los visores de netlist en el flujo de diseño de Quartus}
+\caption{Ubicación de los visores de netlist en el flujo de diseño de Quartus tomada del manual de Quartus II.}
 \label{fig:netlist_viewers}
 \end{figure}
 
@@ -179,10 +179,10 @@ Permite ver un esquema de bajo nivel específico de la tecnología de la lista d
 
 La simulación es un paso crítico en el diseño para FPGA. Permite al diseñador estimular su diseño y ver cómo el código que escribió reacciona al estímulo. Una gran simulación contendrá todos los estados posibles del diseño para garantizar que todos los escenarios de entrada se manejen de manera adecuada. Este ejercicio permite descubrir si en alguna parte del diseño, por ejemplo en procesos combinacionales,  no se contempló todos casos posibles y en caso de descubrir un comportamiento no esperado se procede a corregirlo.
 
-Para este proyecto se utilizó ModelSim, un entorno de simulación creado por Mentor Graphics. ModelSim Está diseñado para trabajar con Verilog y VHDL. Además cuenta con un debugger, el cual se puede emplear, por ejemplo, para descubrir comportamientos más difíciles de dilucidar que no son determinados a simple vista.
+Para este proyecto se utilizó ModelSim \citep{modelsim_manual}, un entorno de simulación creado por Mentor Graphics. ModelSim Está diseñado para trabajar con Verilog y VHDL. Además cuenta con un debugger, el cual se puede emplear, por ejemplo, para descubrir comportamientos más difíciles de dilucidar que no son determinados a simple vista.
 
 \subsection{Sentencias VHDL tipo \textit{report} y \textit{assert}}
-Las sentencias de \textit{report} y \textit{assert} son sentencias de VHDL que se utilizaron para verificar la correcta ejecución de los procesos. La sentencias tipo \textit{report} arroja un mensaje en la consola de acuerdo a nivel de severidad, cuando el programa pasa por dicha sentencia, se puede imprimir un mensaje en la consola y agregar el valor que tiene una señal o variable determinada. Las sentencias tipo \textit{assert} evalúan el valor de una variable o señal en función de una condición y reportan el resultado en la consola de acuerdo al nivel de severidad.
+Las sentencias de \textit{report} y \textit{assert} son sentencias de VHDL \citep{golden_reference} que se utilizaron para verificar la correcta ejecución de los procesos. La sentencias tipo \textit{report} arroja un mensaje en la consola de acuerdo a nivel de severidad, cuando el programa pasa por dicha sentencia, se puede imprimir un mensaje en la consola y agregar el valor que tiene una señal o variable determinada. Las sentencias tipo \textit{assert} evalúan el valor de una variable o señal en función de una condición y reportan el resultado en la consola de acuerdo al nivel de severidad.
 
 La sintaxis básica de las declaraciones tipo \textit{report} en VHDL es:
 
@@ -223,7 +223,7 @@ Durante el proceso de revisión de código puede suceder que un problema real se
 
 Mantener un estilo de codificación permite por un lado, disminuir la probabilidad de errores y mejorar la lectura para uno mismo y para otros, especialmente durante el desarrollo del código en donde se comparte el trabajo con otros desarrolladores. Por el otro, dedicar menos tiempo a cuestiones de estilo deja más tiempo para analizar la estructura del código.
 
-La eliminación de problemas de estilo reduce la cantidad de tiempo que se tarda en realizar las revisiones de código. Esto da como resultado una base de código de mayor calidad. Por ello, en este trabajó se utilizó un software, desarrollado por Jeremiah C Leary, denominado VSG (del acrónimo VHDL Style Guide).
+La eliminación de problemas de estilo reduce la cantidad de tiempo que se tarda en realizar las revisiones de código. Esto da como resultado una base de código de mayor calidad. Por ello, en este trabajó se utilizó un software, desarrollado por Jeremiah C Leary, denominado VSG \citep{vsg_manual} (del acrónimo VHDL Style Guide).
 
 Las características más destacadas de este programa son:
 \begin{itemize}
@@ -241,7 +241,7 @@ La utilización de esta herramienta consistió en analizar cada entidad de dise�
 Para cuestiones que no están al alcance del software VSG se utilizó una convención para nombrar a puertos y señales
 
 \subsubsection{Reglas de codificación}
-Se adoptó las reglas de codificación propuestas por el departamento de sistemas informáticos de la Universidad Tecnológica de Tampere con el objetivo de aumentar la legibilidad para fines de revisión y evitar formas de codificación dañinas o poco prácticas. Se mencionan las más importantes a continuación:
+Se adoptó las reglas de codificación propuestas por el departamento de sistemas informáticos de la Universidad Tecnológica de Tampere \citep{buenas_practicas_vhdl} con el objetivo de aumentar la legibilidad para fines de revisión y evitar formas de codificación dañinas o poco prácticas. Se mencionan las más importantes a continuación:
 
 \begin{itemize}
 \item Usar solamente puertos tipo IN (de entrada) y tipo OUT (de salida).
@@ -275,7 +275,7 @@ Adicionalmente a lo mencionado anteriormente en ésta sección, se adoptaron con
 
 \section{Buenas prácticas en el diseño digital}
 
-Al diseñar con código HDL, se debe comprender cómo una herramienta de síntesis interpreta las diferentes técnicas de diseño HDL y qué resultados esperar. Las diferentes técnicas de diseño pueden afectar la utilización de la lógica y el desempeño en cuanto al tiempo, así como la confiabilidad del diseño. Las buenas prácticas de diseño sincrónico están hechas para evitar la dependencia de los retrasos de propagación en un dispositivo, lo que puede provocar análisis de tiempos incompletos y posibles fallos. Se adoptó para este proyecto, las prácticas de diseño recomendadas por Altera (empresa fabricante del chip utilizado).
+Al diseñar con código HDL, se debe comprender cómo una herramienta de síntesis interpreta las diferentes técnicas de diseño HDL y qué resultados esperar. Las diferentes técnicas de diseño pueden afectar la utilización de la lógica y el desempeño en cuanto al tiempo, así como la confiabilidad del diseño. Las buenas prácticas de diseño sincrónico están hechas para evitar la dependencia de los retrasos de propagación en un dispositivo, lo que puede provocar análisis de tiempos incompletos y posibles fallos. Se adoptó para este proyecto, las prácticas de diseño recomendadas por Altera \citep{sintesis_cookbook}.
 
 
 Se utilizó un diseño síncrono. En un diseño de este tipo, una señal de reloj controla la actividad de todas las entradas y salidas. El diseño se comporta de manera predecible y confiable para todas las condiciones de proceso, voltaje y temperatura (PVT) siempre que se asegure de que se cumplen todos los requisitos de temporización de los registros. Además es posible migrar fácilmente diseños síncronos a diferentes familias de dispositivos o grados de velocidad.
@@ -308,7 +308,7 @@ Otras recomendaciones tenidas en cuenta en el proceso de diseño fue la de evita
 
 \subsection{Metodología estructurada}
 \label{metodologia_estructurada}
-Para algunos componentes se empleó la metodología propuesta por Jiri Gaisler de \textit{Gaisler Research}. Se realizó de esa manera para asegurar la síntesis en aquellos componentes donde había más procesamiento del tipo combinacional.
+Para algunos componentes se empleó la metodología propuesta por Jiri Gaisler \citep{2_process} de \textit{Gaisler Research}. Se realizó de esa manera para asegurar la síntesis en aquellos componentes donde había más procesamiento del tipo combinacional.
 
 De acuerdo a autor, en el diseño  tradicional se presentan a menudo muchas declaraciones concurrentes, muchas señales y procesos de pocas líneas, entre otros. Esto puede ocasionar problemas, por ejemplo, en cuanto a:
 
@@ -328,7 +328,7 @@ Para que el código sea fácil de entender y mantener, apto para rápida simulac
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.5]{./Figures/2_process_scheme.png}
+\includegraphics[scale=0.75]{./Figures/2_process_scheme.png}
 \caption{Diseño sincrónico abstraído en dos partes, combinacional (izquierda) y secuencial (derecha)}
 \label{2_process_scheme}
 \end{figure}

@@ -11,13 +11,20 @@
 %	SECTION 1
 %----------------------------------------------------------------------------------------
 
-Se diseñó e implementó un sistema CFAR para un Procesador Monoradar capaz de elaborar umbrales adaptativos de acuerdo los algoritmos CA-CFAR (\textit{Cell Averaging CFAR}), SOCA-CFAR \textit{Smallest Of Cell Average CFAR} y GOCA-CFAR \textit{Greatest Of Cell Average CFAR}.
+Se diseñó e implementó un sistema CFAR para un Procesador Monoradar capaz de elaborar umbrales adaptativos de acuerdo los algoritmos CA-CFAR (\textit{Cell Averaging CFAR}), SOCA-CFAR (\textit{Smallest Of Cell Average CFAR}) y GOCA-CFAR (\textit{Greatest Of Cell Average CFAR}).
 
-Se diseñó e implementó un sistema configurador capaz de sectorizar la cobertura en 32 sectores. De esta manera se logró mediante calibración poder optimizar, para cada sector, los valores de configuración utilizados por el filtro CFAR, así como otros valores usados en etapas posteriores de procesamiento.
+Se diseñó e implementó un sistema configurador capaz de sectorizar la cobertura en 32 sectores. De esta manera mediante calibración, se logró optimizar para cada sector, los valores de configuración utilizados por el filtro CFAR, así como otros valores usados por etapas posteriores de procesamiento.
 
-El diseño de ambos sistemas fue realizado utilizando el lenguaje de descripción de hardware VHDL. La implementación de estos diseños se llevó a cabo en una placa ADC-SoC de la firma \textit{TerasIC}.
 
-Se realizaron pruebas con un radar FPS113 de la Fuerza Aérea Argentina y el sistema cumple exitosamente con los requerimientos. Esta implementación introdujo mejoras al procesamiento de señales. El trabajo en un futuro podría continuar con otras funciones automáticas que calibren el sistema sin depender de un operador.
+La limitación del CFAR está determinada por el convertidor analógico digital y el periodo de reloj utilizado. Es posible realizar mejoras si se aumenta la tasa de muestreo adoptada para el convertidor analógico digital utilizado a un valor cercano a su capacidad máxima, previo análisis de las implicancias en cuanto al rango cubierto por las celdas CFAR para realizar la promediación.
+
+
+En cuanto al configurador, la limitación se encuentra en la delimitación de los sectores. Como los valores de rango y azimut son independientes uno de otro y estos deben ser evaluados en cada ciclo de reloj, se adoptó una solución en la cual se infirió el sector actual en función de una combinación de sus valores actuales, lo que llevó a que los sectores tuvieran igual área. Es posible realizar mejoras implementando otras funcionalidades que permitan personalizar los límites de los sectores.
+
+
+El diseño de ambos sistemas fue realizado utilizando el lenguaje de descripción de hardware VHDL. La implementación de estos diseños se llevó a cabo en una placa ADC-SoC de la firma \textit{TerasIC}. Los circuitos diseñados pueden ser portables a placas de otros fabricantes u otras tecnologías similares siempre que la placa cuente con los recursos necesarios para la implementación.
+
+Se realizaron pruebas con un radar FPS113 de la Fuerza Aérea Argentina y el sistema cumple exitosamente con los requerimientos. Esta implementación introdujo mejoras al procesamiento de señales y aportó mayor funcionalidad al Procesador Monoradar al permitir sectorización, configuración de cada sector, modo de operación sectorizado o sin sectorizar, selección entre dos tipos de videos de entrada, mayor la resolución de multiplicador y la selección entre distintos tipos de algoritmos, entre otros.
 
  
-Para el presente trabajo, la extensión final de la descripción de los módulos (sin contar diseños previos no utilizados ni \textit{testbenchs}) fue de 2200 líneas. Con las descripciones en VHDL se se realizaron alrededor de 280 contribuciones (\textit{commits}) al repositorio utilizado por el equipo formado para el diseño e implementación del Procesador Monoradar. En la implementación final del Procesador Monoradar se utilizaron alrededor de 7400 módulos lógicos adaptativos (ALM) de la FPGA.
+Para el presente trabajo, la extensión final de la descripción de los módulos (sin contar diseños previos no utilizados ni \textit{testbenchs}) fue de 2200 líneas. Con las descripciones en VHDL se se realizaron alrededor de 280 contribuciones (\textit{commits}) al repositorio utilizado por el equipo formado para el diseño e implementación del Procesador Monoradar. En la implementación final del Procesador Monoradar se utilizaron alrededor de 7400 módulos lógicos adaptativos (ALMs) de la FPGA.
